@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Tudau
+{
+    public partial class Form1 : Form
+    {
+        enum Position
+        {
+            Left, Right, Up, Down, Stop
+        }
+        private int _x;
+        private int _y;
+        private int cot;
+        private int hang;
+        private int tang;
+        private int giam;
+
+        private Bitmap _h;
+        private Position _objPosition;
+        public Form1()
+        {
+            InitializeComponent();
+            _x = 100;
+            _y = 100;
+            _h = new Bitmap("ys1line_edittest2.png");
+            _objPosition = Position.Stop;
+            //cot = 1; hang = 1;
+            tang = 0; 
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawImage(_h, _x, _y, 
+                new Rectangle(110*tang,
+                              hang * 64*3, 36*3, 64*3), GraphicsUnit.Pixel);
+        }
+
+        private void tmrMoving_Tick(object sender, EventArgs e)
+        {
+            if (_objPosition == Position.Right)
+            {
+                _x += 15;
+                        
+            }
+            if (_objPosition == Position.Left)
+            { _x -= 10; }
+            if (_objPosition == Position.Up)
+            { _y -= 10; }
+            if (_objPosition == Position.Down)
+            { _y += 10; }
+
+            tang++;
+            if (tang > 3)
+            { tang = 0; }
+            Invalidate();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Up)
+            {
+                _objPosition = Position.Up;
+            }
+            if (e.KeyCode == Keys.Down)
+            {
+                _objPosition = Position.Down;
+            }
+            if (e.KeyCode == Keys.Left)
+            {
+                _objPosition = Position.Left;
+            }
+            if (e.KeyCode == Keys.NumPad6)
+            {
+                _objPosition = Position.Right;
+            }
+
+        }
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Up)
+            {
+                _objPosition = Position.Stop;
+            }
+            if (e.KeyCode == Keys.Down)
+            {
+                _objPosition = Position.Stop;
+            }
+            if (e.KeyCode == Keys.Left)
+            {
+                _objPosition = Position.Stop;
+            }
+            if (e.KeyCode == Keys.NumPad6)
+            {
+                _objPosition = Position.Stop;
+            }
+
+
+        }
+    }
+}
