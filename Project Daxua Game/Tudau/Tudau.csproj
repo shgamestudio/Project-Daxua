@@ -80,94 +80,91 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Loc_Q_750_200.png">
+    <Content Include="Resource\Loc_Q_750_200.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="map.png">
+    <Content Include="Resource\Q2_ALL_EFF_trans.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Q2_ALL_EFF_trans.png">
+    <Content Include="Resource\Q3_ALL_EFF_trans.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Q3_ALL_EFF_trans.png">
+    <Content Include="Resource\Q3_ALL_EFF_trans_fix.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Q3_ALL_EFF_trans_fix.png">
+    <Content Include="Resource\yasuoQ1.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="yasuoQ1.wav">
+    <Content Include="Resource\yasuoQ2.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="yasuoQ2.wav">
+    <Content Include="Resource\yasuoQ3.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="yasuoQ3.wav">
+    <Content Include="Resource\ys4line_edittest3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest3.png">
+    <Content Include="Resource\ys4line_edittest4.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest4.png">
+    <Content Include="Resource\ys4line_edittest5.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest5.png">
+    <Content Include="Resource\ys4line_edittest6.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest6.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS10.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS10.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS11.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS11.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS12.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS12.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS13.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS13.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS14.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS14.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS15.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS15.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS16.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS16.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS17.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS17.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS18.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS18.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS2.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS3.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS4.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS4.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS5.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS5.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS6.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS6.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS7.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS7.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS8.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS8.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ys4line_edittest7-ATTFrame_1_TRANS9.png">
+    <Content Include="Resource\ys4line_edittest7-ATTFrame_1_TRANS9.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

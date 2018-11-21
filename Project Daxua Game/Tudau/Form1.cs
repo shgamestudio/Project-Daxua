@@ -124,26 +124,19 @@ namespace Tudau
                     e.Graphics.DrawImage(_l, _x + 15, _y - _yLoc,
                   new Rectangle(_f * 125, 0, 125, 200), GraphicsUnit.Pixel); Console.WriteLine(Q_count);
                 }
-
             }
 
             if (trigger == 1) //Left_Q  #################
             {
-                
                 e.Graphics.DrawImage(_h, _x + 70, _y,
-               new Rectangle(845, tangcot * 140, -236, 138), GraphicsUnit.Pixel);              // 324=108*3
-                
-
-
+               new Rectangle(845, tangcot * 140, -236, 138), GraphicsUnit.Pixel);   // 324=108*3
             }
             else if (trigger == 2) //Right_Q ###############
             {
                 
                 e.Graphics.DrawImage(_h, _x, _y,
-               new Rectangle(756, tangcot * 140, 236, 138), GraphicsUnit.Pixel);              // 324=108*3
+               new Rectangle(756, tangcot * 140, 236, 138), GraphicsUnit.Pixel);   // 324=108*3
                
-
-
             }
             else if(trigger==3) // Down_Q #################
             {
@@ -240,9 +233,6 @@ namespace Tudau
 
             if (_objPosition == Position.Attack_Q || (checkQ==0 && check3 != 0 && check2 == 1 && check != 0 && check4 != 0))   //  Q Attack            eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
             {
-               
-
-
                 if (isLeft == 1)
                 { trigger = 1; }
 
@@ -254,16 +244,12 @@ namespace Tudau
 
                 if(isLeft==3)
                 { trigger = 4; }
-
             }
 
 
             if (_objPosition == Position.Stop_Q)        //Dừng Q attack
             {
-
                 trigger = 0;
-
-         
             }
 
 
@@ -271,7 +257,6 @@ namespace Tudau
             {
                
             }
-
             
             Invalidate(); 
         }
