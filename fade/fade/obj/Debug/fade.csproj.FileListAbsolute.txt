@@ -1,0 +1,59 @@
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\fade.exe.config
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\fade.exe
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\fade.pdb
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Form1.resources
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Form2.resources
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Properties.Resources.resources
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.exe
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.pdb
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\Interop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\Interop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Menu.resources
+G:\fade\fade\bin\Debug\fade.exe.config
+G:\fade\fade\bin\Debug\fade.exe
+G:\fade\fade\bin\Debug\fade.pdb
+G:\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\fade\fade\obj\Debug\fade.Form1.resources
+G:\fade\fade\obj\Debug\fade.Form2.resources
+G:\fade\fade\obj\Debug\fade.Menu.resources
+G:\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\fade\fade\obj\Debug\fade.exe
+G:\fade\fade\obj\Debug\fade.pdb
+G:\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\fade\fade\bin\Debug\SHvoice.wav
+G:\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.pdb
