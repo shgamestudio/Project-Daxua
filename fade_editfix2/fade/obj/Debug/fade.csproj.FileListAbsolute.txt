@@ -1,0 +1,484 @@
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\fade.exe.config
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\fade.exe
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\fade.pdb
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Form1.resources
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Form2.resources
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Properties.Resources.resources
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.exe
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.pdb
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\Interop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\Interop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+C:\Users\BimDepTrai\source\repos\fade\fade\obj\Debug\fade.Menu.resources
+G:\fade\fade\bin\Debug\fade.exe.config
+G:\fade\fade\bin\Debug\fade.exe
+G:\fade\fade\bin\Debug\fade.pdb
+G:\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\fade\fade\obj\Debug\fade.Form1.resources
+G:\fade\fade\obj\Debug\fade.Form2.resources
+G:\fade\fade\obj\Debug\fade.Menu.resources
+G:\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\fade\fade\obj\Debug\fade.exe
+G:\fade\fade\obj\Debug\fade.pdb
+G:\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\fade\fade\bin\Debug\SHvoice.wav
+G:\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 2\New folder\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\clone\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\clone\clone 3 test\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\clone\fade\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Resources\ysvideo_2.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\fade\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Begin.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\after_fight.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\R.wav
+G:\back up fade lan 1\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\ys_kill_zed.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\btn_sound.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\play2.png
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\popkda.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\after_fight.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\ys_kill_zed.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\SHvoice.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\R.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\btn_sound.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\popkda.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\fade.exe.config
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\fade.exe
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\Interop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Begin.resources
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Form1.resources
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Form2.resources
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Menu.resources
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.Properties.Resources.resources
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.exe
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\obj\Debug\fade.pdb
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\20nam.png
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\nhac_nen_20mb.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\zed_laugh.wav
+G:\back up fade lan 1\backup lan 2\backup lan 3, co nhac nen\back up lan 4- co chu doi mau va nhac\back up lan 5\cl2\moi nhat\clone moi 2\fade\fade\fade\bin\Debug\Resources\zed_avatar.jpg
+H:\fade_editfix\fade\bin\Debug\btn_clicksound.wav
+H:\fade_editfix\fade\bin\Debug\btn_clicksoundhigh.wav
+H:\fade_editfix\fade\bin\Debug\btn_sound.wav
+H:\fade_editfix\fade\bin\Debug\play2.png
+H:\fade_editfix\fade\bin\Debug\popkda.wav
+H:\fade_editfix\fade\bin\Debug\Resources\zed_avatar.jpg
+H:\fade_editfix\fade\bin\Debug\zed_laugh.wav
+H:\fade_editfix\fade\bin\Debug\Resources\after_fight.wav
+H:\fade_editfix\fade\bin\Debug\Resources\nhac_nen_20mb.wav
+H:\fade_editfix\fade\bin\Debug\Resources\start2_trans_500_crop.png
+H:\fade_editfix\fade\bin\Debug\Resources\ys_kill_zed.wav
+H:\fade_editfix\fade\bin\Debug\SHvoice.wav
+H:\fade_editfix\fade\bin\Debug\Resources\20nam.png
+H:\fade_editfix\fade\bin\Debug\R.wav
+H:\fade_editfix\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+H:\fade_editfix\fade\bin\Debug\Resources\btn_sound.wav
+H:\fade_editfix\fade\bin\Debug\Resources\popkda.wav
+H:\fade_editfix\fade\bin\Debug\Resources\btn_clicksound.wav
+H:\fade_editfix\fade\bin\Debug\fade.exe.config
+H:\fade_editfix\fade\bin\Debug\fade.exe
+H:\fade_editfix\fade\bin\Debug\fade.pdb
+H:\fade_editfix\fade\bin\Debug\Interop.WMPLib.dll
+H:\fade_editfix\fade\bin\Debug\AxInterop.WMPLib.dll
+H:\fade_editfix\fade\obj\Debug\fade.csprojAssemblyReference.cache
+H:\fade_editfix\fade\obj\Debug\Interop.WMPLib.dll
+H:\fade_editfix\fade\obj\Debug\AxInterop.WMPLib.dll
+H:\fade_editfix\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+H:\fade_editfix\fade\obj\Debug\fade.Begin.resources
+H:\fade_editfix\fade\obj\Debug\fade.Form1.resources
+H:\fade_editfix\fade\obj\Debug\fade.Form2.resources
+H:\fade_editfix\fade\obj\Debug\fade.Menu.resources
+H:\fade_editfix\fade\obj\Debug\fade.Properties.Resources.resources
+H:\fade_editfix\fade\obj\Debug\fade.csproj.GenerateResource.cache
+H:\fade_editfix\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+H:\fade_editfix\fade\obj\Debug\fade.exe
+H:\fade_editfix\fade\obj\Debug\fade.pdb
+G:\BEST\fade_editfix2\fade\bin\Debug\btn_clicksound.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\btn_sound.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\play2.png
+G:\BEST\fade_editfix2\fade\bin\Debug\popkda.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\zed_avatar.jpg
+G:\BEST\fade_editfix2\fade\bin\Debug\zed_laugh.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\after_fight.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\ys_kill_zed.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\SHvoice.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\20nam.png
+G:\BEST\fade_editfix2\fade\bin\Debug\R.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\btn_sound.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\fade.exe.config
+G:\BEST\fade_editfix2\fade\bin\Debug\fade.exe
+G:\BEST\fade_editfix2\fade\bin\Debug\fade.pdb
+G:\BEST\fade_editfix2\fade\bin\Debug\Interop.WMPLib.dll
+G:\BEST\fade_editfix2\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\BEST\fade_editfix2\fade\obj\Debug\Interop.WMPLib.dll
+G:\BEST\fade_editfix2\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.Begin.resources
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.Form1.resources
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.Form2.resources
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.Menu.resources
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.Properties.Resources.resources
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.exe
+G:\BEST\fade_editfix2\fade\obj\Debug\fade.pdb
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\20_edit2.mp3
+G:\BEST\fade_editfix2\fade\bin\Debug\btn_next2.wav
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\popkda_mp3.mp3
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\ys_flute_sound.mp3
+G:\BEST\fade_editfix2\fade\bin\Debug\Resources\ys_flute.jpg
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\btn_clicksound.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\btn_next2.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\btn_sound.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\play2.png
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\20_edit2.mp3
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\popkda_mp3.mp3
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\ys_flute_sound.mp3
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\zed_avatar.jpg
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\zed_laugh.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\after_fight.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\ys_kill_zed.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\SHvoice.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\ys_flute.jpg
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\20nam.png
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\R.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\btn_sound.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\fade.exe.config
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\fade.exe
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\fade.pdb
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Interop.WMPLib.dll
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\Interop.WMPLib.dll
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.Begin.resources
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.Form1.resources
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.Form2.resources
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.Menu.resources
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.Properties.Resources.resources
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.exe
+G:\BEST\Back up1\fade_editfix2\fade\obj\Debug\fade.pdb
+G:\BEST\Back up1\fade_editfix2\fade\bin\Debug\Resources\god_king_sound.mp3
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\Interop.WMPLib.dll
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.Begin.resources
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.Form1.resources
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.Form2.resources
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.Menu.resources
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.Properties.Resources.resources
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.exe
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\obj\Debug\fade.pdb
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\btn_clicksound.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\btn_next2.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\btn_sound.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\play2.png
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\20_edit2.mp3
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\god_king_sound.mp3
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\popkda_mp3.mp3
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ys_flute_sound.mp3
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\zed_avatar.jpg
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\zed_laugh.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\after_fight.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ys_kill_zed.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\SHvoice.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ys_flute.jpg
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\20nam.png
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\R.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\btn_sound.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\fade.exe.config
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\fade.exe
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\fade.pdb
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Interop.WMPLib.dll
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ys_fight.mp4
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ys_drama_sound.mp3
+G:\BEST\Back up1\back up 2\fade_editfix2\fade\bin\Debug\Resources\ys_fight_sound.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\btn_clicksound.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\btn_clicksoundhigh.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\btn_next2.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\btn_sound.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\play2.png
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\20_edit2.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\god_king_sound.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\popkda_mp3.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_drama_sound.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_fight.mp4
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_fight_sound.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_flute_sound.mp3
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\zed_avatar.jpg
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\zed_laugh.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\after_fight.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\start2_trans_500_crop.png
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_kill_zed.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\SHvoice.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_flute.jpg
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\20nam.png
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\R.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ysvideo_uncen.mp4
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\btn_sound.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\btn_clicksound.wav
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\fade.exe.config
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\fade.exe
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\fade.pdb
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Interop.WMPLib.dll
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\AxInterop.WMPLib.dll
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.csprojAssemblyReference.cache
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\Interop.WMPLib.dll
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\AxInterop.WMPLib.dll
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.csproj.ResolveComReference.cache
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.Begin.resources
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.Form1.resources
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.Form2.resources
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.Menu.resources
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.Properties.Resources.resources
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.csproj.GenerateResource.cache
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.csproj.CoreCompileInputs.cache
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.exe
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\obj\Debug\fade.pdb
+G:\BEST\Back up1\back up 2\back up sua toan bo\fade_editfix2\fade\bin\Debug\Resources\ys_vs_zed.jpg
