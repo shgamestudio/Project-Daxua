@@ -30,7 +30,10 @@ namespace QUANLIBANHANG
 
         private void adminToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Admin admin = new Admin();
+            this.Hide();
+            admin.ShowDialog();
+            this.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

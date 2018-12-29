@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QUANLIBANHANG
 {
-    public partial class Funtion : Form
+    public partial class Function : Form
     {
-        public Funtion()
+        public Function()
         {
             InitializeComponent();
         }

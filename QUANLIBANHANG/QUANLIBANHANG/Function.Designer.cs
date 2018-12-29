@@ -1,6 +1,6 @@
 ﻿namespace QUANLIBANHANG
 {
-    partial class Funtion
+    partial class Function
     {
         /// <summary>
         /// Required designer variable.
