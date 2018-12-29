@@ -12,10 +12,7 @@ namespace QUANLIBANHANG.DAL
     {
         private static DataProvider instance;
 
-        private DataProvider()
-        {
-
-        }
+        private DataProvider(){}
         internal static DataProvider Instance
         {
             get
