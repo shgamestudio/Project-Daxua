@@ -21,9 +21,8 @@ namespace QUANLIBANHANG
 
         void loadAccList()
         {
-            DataProvider dataProvider = new DataProvider();
             string query = "SELECT USERNAME as[Tên Tài Khoản],NAME as[Tên Hiển Thị], KINDOFACC as[Loại Tài Khoản] FROM ACCOUNT";
-            dataGridView_Acc.DataSource = dataProvider.ExcuteQuery(query);
+            dataGridView_Acc.DataSource =DataProvider.Instance.ExcuteQuery(query);
         }
     }
 }

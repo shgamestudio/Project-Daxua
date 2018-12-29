@@ -10,6 +10,25 @@ namespace QUANLIBANHANG.DAL
 {
     class DataProvider
     {
+        private static DataProvider instance;
+
+        private DataProvider()
+        {
+
+        }
+        internal static DataProvider Instance
+        {
+            get
+            {
+                if(instance ==null)
+                {
+                    instance = new DataProvider();
+                }
+                return instance;
+            }
+            
+            private set => instance = value;
+        }//Cap Instance
         string conection = @"Data Source=SIEUDANG\SQLEXPRESS;Initial Catalog=QUANLIBANHANG;Integrated Security=True";
         public DataTable ExcuteQuery(string query)
         {
