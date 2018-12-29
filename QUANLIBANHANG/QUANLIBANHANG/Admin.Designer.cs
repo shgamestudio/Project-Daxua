@@ -30,7 +30,7 @@
         {
             this.tab_Account = new System.Windows.Forms.TabPage();
             this.panel27 = new System.Windows.Forms.Panel();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Acc = new System.Windows.Forms.DataGridView();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -48,7 +48,7 @@
             this.button_addAcc = new System.Windows.Forms.Button();
             this.tab_Table = new System.Windows.Forms.TabPage();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Table = new System.Windows.Forms.DataGridView();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -66,7 +66,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.tab_Catagory = new System.Windows.Forms.TabPage();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Cata = new System.Windows.Forms.DataGridView();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -113,7 +113,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab_Account.SuspendLayout();
             this.panel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Acc)).BeginInit();
             this.panel22.SuspendLayout();
             this.panel23.SuspendLayout();
             this.panel24.SuspendLayout();
@@ -121,7 +121,7 @@
             this.panel26.SuspendLayout();
             this.tab_Table.SuspendLayout();
             this.panel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Table)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -129,7 +129,7 @@
             this.panel19.SuspendLayout();
             this.tab_Catagory.SuspendLayout();
             this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Cata)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -167,20 +167,20 @@
             // 
             // panel27
             // 
-            this.panel27.Controls.Add(this.dataGridView3);
+            this.panel27.Controls.Add(this.dataGridView_Acc);
             this.panel27.Location = new System.Drawing.Point(6, 73);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(403, 343);
             this.panel27.TabIndex = 10;
             // 
-            // dataGridView3
+            // dataGridView_Acc
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView3.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(403, 343);
-            this.dataGridView3.TabIndex = 0;
+            this.dataGridView_Acc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Acc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView_Acc.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView_Acc.Name = "dataGridView_Acc";
+            this.dataGridView_Acc.Size = new System.Drawing.Size(403, 343);
+            this.dataGridView_Acc.TabIndex = 0;
             // 
             // panel22
             // 
@@ -334,20 +334,20 @@
             // 
             // panel20
             // 
-            this.panel20.Controls.Add(this.dataGridView2);
+            this.panel20.Controls.Add(this.dataGridView_Table);
             this.panel20.Location = new System.Drawing.Point(6, 73);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(403, 343);
             this.panel20.TabIndex = 8;
             // 
-            // dataGridView2
+            // dataGridView_Table
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(403, 343);
-            this.dataGridView2.TabIndex = 0;
+            this.dataGridView_Table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Table.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView_Table.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView_Table.Name = "dataGridView_Table";
+            this.dataGridView_Table.Size = new System.Drawing.Size(403, 343);
+            this.dataGridView_Table.TabIndex = 0;
             // 
             // panel11
             // 
@@ -501,20 +501,20 @@
             // 
             // panel18
             // 
-            this.panel18.Controls.Add(this.dataGridView1);
+            this.panel18.Controls.Add(this.dataGridView_Cata);
             this.panel18.Location = new System.Drawing.Point(11, 74);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(398, 342);
             this.panel18.TabIndex = 7;
             // 
-            // dataGridView1
+            // dataGridView_Cata
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(398, 342);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView_Cata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Cata.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView_Cata.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView_Cata.Name = "dataGridView_Cata";
+            this.dataGridView_Cata.Size = new System.Drawing.Size(398, 342);
+            this.dataGridView_Cata.TabIndex = 0;
             // 
             // panel12
             // 
@@ -925,6 +925,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(800, 450);
             this.tabControl1.TabIndex = 0;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -935,7 +936,7 @@
             this.Text = "Admin";
             this.tab_Account.ResumeLayout(false);
             this.panel27.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Acc)).EndInit();
             this.panel22.ResumeLayout(false);
             this.panel23.ResumeLayout(false);
             this.panel23.PerformLayout();
@@ -946,7 +947,7 @@
             this.panel26.ResumeLayout(false);
             this.tab_Table.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Table)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
             this.panel21.PerformLayout();
@@ -957,7 +958,7 @@
             this.panel19.ResumeLayout(false);
             this.tab_Catagory.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Cata)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
@@ -1027,7 +1028,7 @@
         private System.Windows.Forms.DataGridView dataGridView_Bills;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.Panel panel27;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView dataGridView_Acc;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.ComboBox comboBox2;
@@ -1044,7 +1045,7 @@
         private System.Windows.Forms.Button button_deleAcc;
         private System.Windows.Forms.Button button_addAcc;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataGridView_Table;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -1061,7 +1062,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView_Cata;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.TextBox textBox2;

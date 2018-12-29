@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QUANLIBANHANG.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,19 +16,14 @@ namespace QUANLIBANHANG
         public Admin()
         {
             InitializeComponent();
+            loadAccList();
         }
 
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        void loadAccList()
         {
-
+            DataProvider dataProvider = new DataProvider();
+            string query = "SELECT USERNAME as[Tên Tài Khoản],NAME as[Tên Hiển Thị], KINDOFACC as[Loại Tài Khoản] FROM ACCOUNT";
+            dataGridView_Acc.DataSource = dataProvider.ExcuteQuery(query);
         }
-
-        
-
-       
-
-        
-
-       
     }
 }

@@ -58,6 +58,7 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAL\DataProvider.cs" />
     <Compile Include="Function.cs">
       <SubType>Form</SubType>
     </Compile>
