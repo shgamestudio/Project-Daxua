@@ -59,6 +59,8 @@
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
     <Compile Include="DAL\DataProvider.cs" />
+    <Compile Include="DAL\TableDAL.cs" />
+    <Compile Include="DTO\Table.cs" />
     <Compile Include="Function.cs">
       <SubType>Form</SubType>
     </Compile>
