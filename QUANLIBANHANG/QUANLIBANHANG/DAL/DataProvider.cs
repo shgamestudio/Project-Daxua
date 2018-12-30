@@ -26,7 +26,7 @@ namespace QUANLIBANHANG.DAL
             
             private set => instance = value;
         }//Cap Instance
-        string conection = @"Data Source=SIEUDANG\SQLEXPRESS;Initial Catalog=QUANLIBANHANG;Integrated Security=True";
+        string conection = @"Data Source=DESKTOP-EURJ2PN\SQLEXPRESS;Initial Catalog=QUANLIBANHANG;Integrated Security=True";
         public DataTable ExcuteQuery(string query)
         {
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QUANLIBANHANG.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,10 +27,25 @@ namespace QUANLIBANHANG
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            SellingManager sellingManager = new SellingManager();
-            this.Hide();
-            sellingManager.ShowDialog();
-            this.Show();
+            string userName = textBox_UserName.Text;
+            string passWord = textBox_UserPassword.Text;
+            
+            if (Login(userName,passWord))
+            {
+                SellingManager sellingManager = new SellingManager();
+                this.Hide();
+                sellingManager.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bạn nhập Sai tên tài khoản hoặc mật khẩu.");
+            }
+        }
+
+        bool Login(string userName,string passWord)
+        {
+            return AccDAL.Instance.Login(userName, passWord);
         }
 
         private void button2_Click(object sender, EventArgs e)
