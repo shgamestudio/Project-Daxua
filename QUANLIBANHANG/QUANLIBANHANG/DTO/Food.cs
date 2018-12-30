@@ -23,10 +23,10 @@ namespace QUANLIBANHANG.DTO
         }
         public Food(DataRow row)
         {
-            this.iD = (int)row[""];
-            this.name = name;
-            this.iDCata = idcata;
-            this.price = price;
+            this.iD = (int)row["ID"];
+            this.name = row["NAME"].ToString() ;
+            this.iDCata = (int)row["IDCATEGORY"];
+            this.price = (int)row["PRICE"];
         }
         public int ID { get => iD; set => iD = value; }
         public string Name { get => name; set => name = value; }

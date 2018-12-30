@@ -25,14 +25,16 @@ namespace QUANLIBANHANG
 
         public void LoadCatagory()
         {
-            List<Catagory> catagories = CatagoryDAL.Instance.GetCatagories();
+            List<Category> catagories = CategoryDAL.Instance.GetCatagories();
             comboBox_Catagory.DataSource = catagories;
             comboBox_Catagory.DisplayMember = "NAME";
         }
 
         public void LoadFoodByCataIndex(int id)
         {
-
+            List<Food> foods = FoodDAL.Instance.GetFoodsByCataInDex(id);
+            comboBox_Food.DataSource = foods;
+            comboBox_Food.DisplayMember = "NAME";
         }
 
         private void LoadTable()
@@ -77,6 +79,7 @@ namespace QUANLIBANHANG
         private void Button_Click(object sender, EventArgs e)
         {
             int idTable = (int)(sender as Button).Tag;
+            listView1.Tag = (sender as Button).Tag;
             ShowBill(idTable);
         }
 
@@ -106,7 +109,14 @@ namespace QUANLIBANHANG
 
         private void comboBox_Catagory_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int id = 0;
+            int id = 1;
+            ComboBox cb = sender as ComboBox;
+            if(cb.SelectedItem==null)
+            {
+                return;
+            }
+            Category selected = cb.SelectedItem as Category;
+            id = selected.ID;
             LoadFoodByCataIndex(id);
         }
     }

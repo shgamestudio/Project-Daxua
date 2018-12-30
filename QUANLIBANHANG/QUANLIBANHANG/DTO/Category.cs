@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace QUANLIBANHANG.DTO
 {
-    class Catagory
+    class Category
     {
         private int iD;
         private string name;
 
-        public Catagory(int id , string name )
+        public Category(int id , string name )
         {
             this.iD = id;
             this.name = name;
         }
 
-        public Catagory(DataRow row)
+        public Category(DataRow row)
         {
             this.iD = (int)row["ID"];
             this.name = row["NAME"].ToString();
