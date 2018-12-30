@@ -37,8 +37,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.button_addFood = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox_Food = new System.Windows.Forms.ComboBox();
+            this.comboBox_Catagory = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -110,8 +110,8 @@
             // 
             this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.button_addFood);
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.comboBox_Food);
+            this.panel1.Controls.Add(this.comboBox_Catagory);
             this.panel1.Location = new System.Drawing.Point(371, 28);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(417, 57);
@@ -138,21 +138,22 @@
             this.button_addFood.Text = "Thêm";
             this.button_addFood.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // comboBox_Food
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(4, 31);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(235, 21);
-            this.comboBox2.TabIndex = 1;
+            this.comboBox_Food.FormattingEnabled = true;
+            this.comboBox_Food.Location = new System.Drawing.Point(4, 31);
+            this.comboBox_Food.Name = "comboBox_Food";
+            this.comboBox_Food.Size = new System.Drawing.Size(235, 21);
+            this.comboBox_Food.TabIndex = 1;
             // 
-            // comboBox1
+            // comboBox_Catagory
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(4, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(235, 21);
-            this.comboBox1.TabIndex = 0;
+            this.comboBox_Catagory.FormattingEnabled = true;
+            this.comboBox_Catagory.Location = new System.Drawing.Point(4, 4);
+            this.comboBox_Catagory.Name = "comboBox_Catagory";
+            this.comboBox_Catagory.Size = new System.Drawing.Size(235, 21);
+            this.comboBox_Catagory.TabIndex = 0;
+            this.comboBox_Catagory.SelectedIndexChanged += new System.EventHandler(this.comboBox_Catagory_SelectedIndexChanged);
             // 
             // panel2
             // 
@@ -293,12 +294,12 @@
         private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox_Catagory;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Button button_addFood;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox_Food;
         private System.Windows.Forms.Button Button_Pay;
         private System.Windows.Forms.Button button_saleOff;
         private System.Windows.Forms.Button button_moveTable;

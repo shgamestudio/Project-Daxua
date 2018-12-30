@@ -20,7 +20,19 @@ namespace QUANLIBANHANG
         {
             InitializeComponent();
             LoadTable();
-            
+            LoadCatagory();
+        }
+
+        public void LoadCatagory()
+        {
+            List<Catagory> catagories = CatagoryDAL.Instance.GetCatagories();
+            comboBox_Catagory.DataSource = catagories;
+            comboBox_Catagory.DisplayMember = "NAME";
+        }
+
+        public void LoadFoodByCataIndex(int id)
+        {
+
         }
 
         private void LoadTable()
@@ -92,6 +104,10 @@ namespace QUANLIBANHANG
 
         }
 
-       
+        private void comboBox_Catagory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int id = 0;
+            LoadFoodByCataIndex(id);
+        }
     }
 }
