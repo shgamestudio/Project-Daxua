@@ -35,5 +35,16 @@ namespace QUANLIBANHANG.DAL
             }
             return -1;
         }
+
+        public void InsertValueBill(int id)
+        {
+            DataProvider.Instance.ExcuteQuery("INSERT INTO BILL VALUES (GETDATE(),NULL,'" + id + " ','0' )");
+        }
+        public int GetMaxBillIndex()
+        {
+            DataTable dataTable= DataProvider.Instance.ExcuteQuery("select max(ID) FROM BILL");
+            int i = (int)dataTable.Rows[0]["ID"];
+            return i;
+        }
     }
 }

@@ -137,6 +137,7 @@
             this.button_addFood.TabIndex = 2;
             this.button_addFood.Text = "Thêm";
             this.button_addFood.UseVisualStyleBackColor = true;
+            this.button_addFood.Click += new System.EventHandler(this.button_addFood_Click);
             // 
             // comboBox_Food
             // 

@@ -37,5 +37,9 @@ namespace QUANLIBANHANG.DAL
             }
             return billinfos;
         }
+        public void InsertValueBillInfo(int idBILL, int idFOOD, int SOLUONG)
+        {
+            DataProvider.Instance.ExcuteQuery("INSERT INTO BILLINFO VALUES ('" + idBILL + "','" + idFOOD + "','" + SOLUONG + "'");
+        }
     }
 }

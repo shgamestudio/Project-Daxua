@@ -119,5 +119,11 @@ namespace QUANLIBANHANG
             id = selected.ID;
             LoadFoodByCataIndex(id);
         }
+
+        private void button_addFood_Click(object sender, EventArgs e)
+        {
+            Table table = listView1.Tag as Table;
+            int idbill = BillDAL.Instance.GetUnCheckOutBillByTableId(table.ID);
+        }
     }
 }
