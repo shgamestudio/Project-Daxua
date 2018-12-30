@@ -43,13 +43,14 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Button_Pay = new System.Windows.Forms.Button();
             this.button_saleOff = new System.Windows.Forms.Button();
             this.button_moveTable = new System.Windows.Forms.Button();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.TextBox_TotalPrice = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -186,6 +187,15 @@
             this.columnHeader2.Text = "Giá";
             this.columnHeader2.Width = 90;
             // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Số Lượng";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Thành Tiền";
+            this.columnHeader4.Width = 90;
+            // 
             // Button_Pay
             // 
             this.Button_Pay.Location = new System.Drawing.Point(699, 383);
@@ -197,7 +207,7 @@
             // 
             // button_saleOff
             // 
-            this.button_saleOff.Location = new System.Drawing.Point(548, 383);
+            this.button_saleOff.Location = new System.Drawing.Point(486, 383);
             this.button_saleOff.Name = "button_saleOff";
             this.button_saleOff.Size = new System.Drawing.Size(75, 26);
             this.button_saleOff.TabIndex = 5;
@@ -216,7 +226,7 @@
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(548, 415);
+            this.numericUpDown3.Location = new System.Drawing.Point(486, 415);
             this.numericUpDown3.Minimum = new decimal(new int[] {
             100,
             0,
@@ -234,20 +244,23 @@
             this.comboBox3.Size = new System.Drawing.Size(75, 21);
             this.comboBox3.TabIndex = 9;
             // 
-            // columnHeader3
+            // TextBox_TotalPrice
             // 
-            this.columnHeader3.Text = "Số Lượng";
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Thành Tiền";
-            this.columnHeader4.Width = 90;
+            this.TextBox_TotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox_TotalPrice.Location = new System.Drawing.Point(563, 398);
+            this.TextBox_TotalPrice.Name = "TextBox_TotalPrice";
+            this.TextBox_TotalPrice.ReadOnly = true;
+            this.TextBox_TotalPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TextBox_TotalPrice.Size = new System.Drawing.Size(129, 26);
+            this.TextBox_TotalPrice.TabIndex = 10;
+            this.TextBox_TotalPrice.Text = "0";
             // 
             // SellingManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TextBox_TotalPrice);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.numericUpDown3);
             this.Controls.Add(this.button_moveTable);
@@ -295,5 +308,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.TextBox TextBox_TotalPrice;
     }
 }

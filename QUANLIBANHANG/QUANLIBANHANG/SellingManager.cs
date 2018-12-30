@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,6 +47,7 @@ namespace QUANLIBANHANG
 
         void ShowBill(int idTable)
         {
+            int totalPrice=0;
             listView1.Items.Clear();
             List<Menu> menus = MenuDAL.Instance.GetMenus(idTable);
             foreach (Menu menu in menus)
@@ -54,8 +56,11 @@ namespace QUANLIBANHANG
                 listViewItem.SubItems.Add(menu.Price.ToString());
                 listViewItem.SubItems.Add(menu.SoLuong.ToString());
                 listViewItem.SubItems.Add(menu.TotalPrice.ToString());
+                totalPrice += menu.TotalPrice;
                 listView1.Items.Add(listViewItem);
             }
+            CultureInfo cultureInfo = new CultureInfo("vn-VN");
+            TextBox_TotalPrice.Text = totalPrice.ToString("C",cultureInfo);
         }
         private void Button_Click(object sender, EventArgs e)
         {

@@ -30,7 +30,7 @@ namespace QUANLIBANHANG.DAL
         public List<Menu> GetMenus(int idTable)
         {
             List<Menu> menus = new List<Menu>();
-            string query = "SELECT F.NAME AS 'Tên Món Ăn', BI.SOLUONG AS 'Số Lượng', F.PRICE AS 'Giá' , BI.SOLUONG*F.PRICE AS 'Tổng Tiền' FROM BILLINFO AS BI,BILL AS B,FOOD AS F WHERE BI.IDBILL = B.ID AND BI.IDFOOD = F.ID AND B.IDTABLE = '"+idTable+"'";
+            string query = "SELECT F.NAME AS 'Tên Món Ăn', BI.SOLUONG AS 'Số Lượng', F.PRICE AS 'Giá' , BI.SOLUONG*F.PRICE AS 'Tổng Tiền' FROM BILLINFO AS BI,BILL AS B,FOOD AS F WHERE BI.IDBILL = B.ID AND BI.IDFOOD = F.ID AND B.IDTABLE = '"+idTable+"' AND B.ISPAID=0";
             DataTable dataTable = DataProvider.Instance.ExcuteQuery(query);
             foreach (DataRow row in dataTable.Rows)
             {
