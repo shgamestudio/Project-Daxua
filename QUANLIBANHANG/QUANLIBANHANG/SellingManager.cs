@@ -122,8 +122,25 @@ namespace QUANLIBANHANG
 
         private void button_addFood_Click(object sender, EventArgs e)
         {
-            Table table = listView1.Tag as Table;
-            int idbill = BillDAL.Instance.GetUnCheckOutBillByTableId(table.ID);
+            int table = (int)listView1.Tag;
+            int idbill = BillDAL.Instance.GetUnCheckOutBillByTableId(table);
+            int idFood = (int)(comboBox_Food.SelectedItem as Food).ID;
+            int soluong = (int)numeric_SoLuong.Value;
+                
+            if(idbill==-1)
+            {
+                BillDAL.Instance.InsertValueBill(table);
+                BillInfoDAL.Instance.InsertValueBillInfo(BillDAL.Instance.GetMaxBillIndex(), idFood, soluong);
+                
+            }
+            else
+            {
+
+                BillInfoDAL.Instance.InsertValueBillInfo(idbill, idFood, soluong);
+                ShowBill(table);
+                
+            }
+            
         }
     }
 }

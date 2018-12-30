@@ -28,9 +28,9 @@ namespace QUANLIBANHANG.DAL
         }//Cap Instance
         string conection = @"Data Source=.\SQLEXPRESS;Initial Catalog=QUANLIBANHANG;Integrated Security=True";
 
-        //string conection = @"Data Source=DESKTOP-EURJ2PN\SQLEXPRESS;Initial Catalog=QUANLIBANHANG;Integrated Security=True";
+        
 
-        public DataTable ExcuteQuery(string query)
+        public DataTable ExcuteQuery(string query, object[] parameter =null)
         {
 
             DataTable dataTable = new DataTable();
@@ -38,6 +38,19 @@ namespace QUANLIBANHANG.DAL
             {
                 SQLconnection.Open();
                 SqlCommand sqlCommand = new SqlCommand(query, SQLconnection);
+                if(parameter !=null)
+                {
+                    string[] listpara = query.Split(' ');
+                    int i = 0;
+                    foreach (string item in listpara)
+                    {
+                        if (item.Contains("@"))
+                        {
+                            sqlCommand.Parameters.AddWithValue(item, parameter[i]);
+                            i++;
+                        }
+                    }
+                }
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand);
                 sqlDataAdapter.Fill(dataTable);
                 SQLconnection.Close();

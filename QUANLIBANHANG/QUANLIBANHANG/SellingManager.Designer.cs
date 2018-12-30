@@ -35,7 +35,7 @@
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numeric_SoLuong = new System.Windows.Forms.NumericUpDown();
             this.button_addFood = new System.Windows.Forms.Button();
             this.comboBox_Food = new System.Windows.Forms.ComboBox();
             this.comboBox_Catagory = new System.Windows.Forms.ComboBox();
@@ -53,7 +53,7 @@
             this.TextBox_TotalPrice = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_SoLuong)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.SuspendLayout();
@@ -108,7 +108,7 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.numeric_SoLuong);
             this.panel1.Controls.Add(this.button_addFood);
             this.panel1.Controls.Add(this.comboBox_Food);
             this.panel1.Controls.Add(this.comboBox_Catagory);
@@ -117,17 +117,17 @@
             this.panel1.Size = new System.Drawing.Size(417, 57);
             this.panel1.TabIndex = 2;
             // 
-            // numericUpDown1
+            // numeric_SoLuong
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(328, 18);
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.numeric_SoLuong.Location = new System.Drawing.Point(328, 18);
+            this.numeric_SoLuong.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(71, 20);
-            this.numericUpDown1.TabIndex = 3;
+            this.numeric_SoLuong.Name = "numeric_SoLuong";
+            this.numeric_SoLuong.Size = new System.Drawing.Size(71, 20);
+            this.numeric_SoLuong.TabIndex = 3;
             // 
             // button_addFood
             // 
@@ -278,7 +278,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_SoLuong)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.ResumeLayout(false);
@@ -298,7 +298,7 @@
         private System.Windows.Forms.ComboBox comboBox_Catagory;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numeric_SoLuong;
         private System.Windows.Forms.Button button_addFood;
         private System.Windows.Forms.ComboBox comboBox_Food;
         private System.Windows.Forms.Button Button_Pay;

@@ -42,7 +42,7 @@ namespace QUANLIBANHANG.DAL
         }
         public int GetMaxBillIndex()
         {
-            DataTable dataTable= DataProvider.Instance.ExcuteQuery("select max(ID) FROM BILL");
+            DataTable dataTable= DataProvider.Instance.ExcuteQuery("select max(ID) AS ID FROM BILL");
             int i = (int)dataTable.Rows[0]["ID"];
             return i;
         }

@@ -39,7 +39,7 @@ namespace QUANLIBANHANG.DAL
         }
         public void InsertValueBillInfo(int idBILL, int idFOOD, int SOLUONG)
         {
-            DataProvider.Instance.ExcuteQuery("INSERT INTO BILLINFO VALUES ('" + idBILL + "','" + idFOOD + "','" + SOLUONG + "'");
+            DataProvider.Instance.ExcuteQuery("USP_insertBillinfo @idbill , @idfood , @count ", new object[] {idBILL,idFOOD,SOLUONG });
         }
     }
 }
