@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Menu = QUANLIBANHANG.DTO.Menu;
 
 namespace QUANLIBANHANG
 {
@@ -28,17 +29,38 @@ namespace QUANLIBANHANG
             {
                 Button button = new Button { Width = TableDAL.TableButtonWidth, Height = TableDAL.TableButtonHeigh };
                 button.Text = table.Name + Environment.NewLine + table.Status;
+                button.Click += Button_Click;
+                button.Tag = table.ID;//id ban
                 switch(table.Status)
                 {
-                    case "Trong":
+                    case "TRỐNG":
                         button.BackColor = Color.Aqua;
                         break;
-                    case "Co Nguoi":
+                    case "CÓ NGƯỜI":
                         button.BackColor = Color.LightPink;
                         break;
                 }
                 flowLayoutPanel1.Controls.Add(button);
             }
+        }
+
+        void ShowBill(int idTable)
+        {
+            listView1.Items.Clear();
+            List<Menu> menus = MenuDAL.Instance.GetMenus(idTable);
+            foreach (Menu menu in menus)
+            {
+                ListViewItem listViewItem = new ListViewItem(menu.FoodName);
+                listViewItem.SubItems.Add(menu.Price.ToString());
+                listViewItem.SubItems.Add(menu.SoLuong.ToString());
+                listViewItem.SubItems.Add(menu.TotalPrice.ToString());
+                listView1.Items.Add(listViewItem);
+            }
+        }
+        private void Button_Click(object sender, EventArgs e)
+        {
+            int idTable = (int)(sender as Button).Tag;
+            ShowBill(idTable);
         }
 
         private void thôngTinTàiKhoảnToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -64,5 +86,7 @@ namespace QUANLIBANHANG
         {
 
         }
+
+       
     }
 }

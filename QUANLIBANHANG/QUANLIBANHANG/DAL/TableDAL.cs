@@ -11,8 +11,8 @@ namespace QUANLIBANHANG.DAL
     class TableDAL
     {
         private static TableDAL instance;
-        public static int TableButtonWidth = 50;
-        public static int TableButtonHeigh = 50;
+        public static int TableButtonWidth = 70;
+        public static int TableButtonHeigh = 70;
 
         private TableDAL() { }
 

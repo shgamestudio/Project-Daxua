@@ -27,7 +27,10 @@ namespace QUANLIBANHANG.DTO
             Status = status;
         }
 
-        public int ID { get => iD; set => iD = value; }
+        public int ID
+        {
+            get => iD; set => iD = value;
+        }
         public string Name { get => name; set => name = value; }
         public string Status { get => status; set => status = value; }
     }
