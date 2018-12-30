@@ -58,6 +58,7 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAL\AccDAL.cs" />
     <Compile Include="DAL\DataProvider.cs" />
     <Compile Include="DAL\TableDAL.cs" />
     <Compile Include="DTO\Table.cs" />
