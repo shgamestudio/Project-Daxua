@@ -16,6 +16,7 @@ namespace QUANLIBANHANG
         public Admin()
         {
             InitializeComponent();
+
             loadAccList();
         }
 

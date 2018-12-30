@@ -16,7 +16,7 @@ namespace QUANLIBANHANG
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Function());
+            Application.Run(new SellingManager());
         }
     }
 }
