@@ -36,6 +36,11 @@ namespace QUANLIBANHANG.DAL
             return -1;
         }
 
+        public void Paid(int id)
+        {
+            DataProvider.Instance.ExcuteQuery("UPDATE BILL SET ISPAID = '1' WHERE ID =" + id);
+        }
+
         public void InsertValueBill(int id)
         {
             DataProvider.Instance.ExcuteQuery("INSERT INTO BILL VALUES (GETDATE(),NULL,'" + id + " ','0' )");

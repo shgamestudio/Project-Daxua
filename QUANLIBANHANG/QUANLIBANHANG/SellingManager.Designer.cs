@@ -51,6 +51,7 @@
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.TextBox_TotalPrice = new System.Windows.Forms.TextBox();
+            this.label_TableName = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_SoLuong)).BeginInit();
@@ -103,7 +104,7 @@
             // 
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 27);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(352, 411);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(318, 411);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel1
@@ -112,9 +113,9 @@
             this.panel1.Controls.Add(this.button_addFood);
             this.panel1.Controls.Add(this.comboBox_Food);
             this.panel1.Controls.Add(this.comboBox_Catagory);
-            this.panel1.Location = new System.Drawing.Point(371, 28);
+            this.panel1.Location = new System.Drawing.Point(347, 28);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(417, 57);
+            this.panel1.Size = new System.Drawing.Size(441, 57);
             this.panel1.TabIndex = 2;
             // 
             // numeric_SoLuong
@@ -128,6 +129,11 @@
             this.numeric_SoLuong.Name = "numeric_SoLuong";
             this.numeric_SoLuong.Size = new System.Drawing.Size(71, 20);
             this.numeric_SoLuong.TabIndex = 3;
+            this.numeric_SoLuong.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // button_addFood
             // 
@@ -159,9 +165,9 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.listView1);
-            this.panel2.Location = new System.Drawing.Point(371, 92);
+            this.panel2.Location = new System.Drawing.Point(347, 92);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(417, 285);
+            this.panel2.Size = new System.Drawing.Size(441, 285);
             this.panel2.TabIndex = 3;
             // 
             // listView1
@@ -174,7 +180,7 @@
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(417, 285);
+            this.listView1.Size = new System.Drawing.Size(441, 285);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -200,27 +206,28 @@
             // 
             // Button_Pay
             // 
-            this.Button_Pay.Location = new System.Drawing.Point(699, 383);
+            this.Button_Pay.Location = new System.Drawing.Point(689, 382);
             this.Button_Pay.Name = "Button_Pay";
-            this.Button_Pay.Size = new System.Drawing.Size(75, 48);
+            this.Button_Pay.Size = new System.Drawing.Size(99, 48);
             this.Button_Pay.TabIndex = 4;
             this.Button_Pay.Text = "Thanh Toán";
             this.Button_Pay.UseVisualStyleBackColor = true;
+            this.Button_Pay.Click += new System.EventHandler(this.Button_Pay_Click);
             // 
             // button_saleOff
             // 
-            this.button_saleOff.Location = new System.Drawing.Point(486, 383);
+            this.button_saleOff.Location = new System.Drawing.Point(452, 382);
             this.button_saleOff.Name = "button_saleOff";
-            this.button_saleOff.Size = new System.Drawing.Size(75, 26);
+            this.button_saleOff.Size = new System.Drawing.Size(99, 26);
             this.button_saleOff.TabIndex = 5;
             this.button_saleOff.Text = "Giảm Giá";
             this.button_saleOff.UseVisualStyleBackColor = true;
             // 
             // button_moveTable
             // 
-            this.button_moveTable.Location = new System.Drawing.Point(393, 383);
+            this.button_moveTable.Location = new System.Drawing.Point(347, 382);
             this.button_moveTable.Name = "button_moveTable";
-            this.button_moveTable.Size = new System.Drawing.Size(75, 26);
+            this.button_moveTable.Size = new System.Drawing.Size(99, 26);
             this.button_moveTable.TabIndex = 6;
             this.button_moveTable.Text = "Chuyển Bàn";
             this.button_moveTable.UseVisualStyleBackColor = true;
@@ -228,40 +235,51 @@
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(486, 415);
+            this.numericUpDown3.Location = new System.Drawing.Point(452, 414);
             this.numericUpDown3.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(71, 20);
+            this.numericUpDown3.Size = new System.Drawing.Size(95, 20);
             this.numericUpDown3.TabIndex = 8;
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(393, 414);
+            this.comboBox3.Location = new System.Drawing.Point(347, 414);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(75, 21);
+            this.comboBox3.Size = new System.Drawing.Size(99, 21);
             this.comboBox3.TabIndex = 9;
             // 
             // TextBox_TotalPrice
             // 
             this.TextBox_TotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox_TotalPrice.Location = new System.Drawing.Point(563, 398);
+            this.TextBox_TotalPrice.Location = new System.Drawing.Point(553, 383);
             this.TextBox_TotalPrice.Name = "TextBox_TotalPrice";
             this.TextBox_TotalPrice.ReadOnly = true;
             this.TextBox_TotalPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TextBox_TotalPrice.Size = new System.Drawing.Size(129, 26);
+            this.TextBox_TotalPrice.Size = new System.Drawing.Size(130, 26);
             this.TextBox_TotalPrice.TabIndex = 10;
             this.TextBox_TotalPrice.Text = "0";
+            // 
+            // label_TableName
+            // 
+            this.label_TableName.AutoSize = true;
+            this.label_TableName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_TableName.Location = new System.Drawing.Point(593, 416);
+            this.label_TableName.Name = "label_TableName";
+            this.label_TableName.Size = new System.Drawing.Size(13, 20);
+            this.label_TableName.TabIndex = 11;
+            this.label_TableName.Text = ".";
             // 
             // SellingManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label_TableName);
             this.Controls.Add(this.TextBox_TotalPrice);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.numericUpDown3);
@@ -311,5 +329,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.TextBox TextBox_TotalPrice;
+        private System.Windows.Forms.Label label_TableName;
     }
 }

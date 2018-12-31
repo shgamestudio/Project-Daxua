@@ -39,13 +39,17 @@ namespace QUANLIBANHANG
 
         private void LoadTable()
         {
+            if(flowLayoutPanel1!=null)
+            {
+                flowLayoutPanel1.Controls.Clear();
+            }
             List<Table> tables = TableDAL.Instance.LoadTableList();
             foreach (Table table in tables)
             {
                 Button button = new Button { Width = TableDAL.TableButtonWidth, Height = TableDAL.TableButtonHeigh };
                 button.Text = table.Name + Environment.NewLine + table.Status;
                 button.Click += Button_Click;
-                button.Tag = table.ID;//id ban
+                button.Tag = table;//id ban
                 switch(table.Status)
                 {
                     case "TRỐNG":
@@ -75,10 +79,13 @@ namespace QUANLIBANHANG
             }
             CultureInfo cultureInfo = new CultureInfo("vn-VN");
             TextBox_TotalPrice.Text = totalPrice.ToString("C",cultureInfo);
+            LoadTable();
         }
         private void Button_Click(object sender, EventArgs e)
         {
-            int idTable = (int)(sender as Button).Tag;
+
+            int idTable = ((sender as Button).Tag as Table).ID;
+            label_TableName.Text = ((sender as Button).Tag as Table).Name;
             listView1.Tag = (sender as Button).Tag;
             ShowBill(idTable);
         }
@@ -122,25 +129,41 @@ namespace QUANLIBANHANG
 
         private void button_addFood_Click(object sender, EventArgs e)
         {
-            int table = (int)listView1.Tag;
-            int idbill = BillDAL.Instance.GetUnCheckOutBillByTableId(table);
+            if(listView1.Tag ==null)
+            {
+                MessageBox.Show("Vui lòng chọn bàn trước khi chọn món", "Thông báo");
+                return; 
+            }
+            Table table = listView1.Tag as Table;
+            int idbill = BillDAL.Instance.GetUnCheckOutBillByTableId(table.ID);
             int idFood = (int)(comboBox_Food.SelectedItem as Food).ID;
             int soluong = (int)numeric_SoLuong.Value;
                 
             if(idbill==-1)
             {
-                BillDAL.Instance.InsertValueBill(table);
-                BillInfoDAL.Instance.InsertValueBillInfo(BillDAL.Instance.GetMaxBillIndex(), idFood, soluong);
-                
-            }
+                BillDAL.Instance.InsertValueBill(table.ID);
+                BillInfoDAL.Instance.InsertValueBillInfo(BillDAL.Instance.GetMaxBillIndex(), idFood, soluong);            }
             else
             {
 
                 BillInfoDAL.Instance.InsertValueBillInfo(idbill, idFood, soluong);
-                ShowBill(table);
-                
             }
-            
+            ShowBill(table.ID);
+            LoadTable();
+        }
+
+        private void Button_Pay_Click(object sender, EventArgs e)
+        {
+            Table id = listView1.Tag as Table;
+            int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
+            if(idBill!=-1)
+            {
+                if(MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho Bàn"+id.Name,"Thông Báo",MessageBoxButtons.OKCancel)==DialogResult.OK)
+                {
+                    BillDAL.Instance.Paid(idBill);
+                    ShowBill(id.ID);
+                }
+            }
         }
     }
 }
