@@ -33,13 +33,13 @@
             this.dataGridView_Acc = new System.Windows.Forms.DataGridView();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox_kindOfAcc = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox_Name = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox_UserName = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.button_viewAcc = new System.Windows.Forms.Button();
@@ -69,7 +69,7 @@
             this.dataGridView_Cata = new System.Windows.Forms.DataGridView();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox_NameCata = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.textBox_cataID = new System.Windows.Forms.TextBox();
@@ -94,7 +94,7 @@
             this.textBox_foodName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox_ID = new System.Windows.Forms.TextBox();
+            this.textBox_IDFood = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button_viewFood = new System.Windows.Forms.Button();
@@ -194,20 +194,20 @@
             // 
             // panel23
             // 
-            this.panel23.Controls.Add(this.comboBox2);
+            this.panel23.Controls.Add(this.comboBox_kindOfAcc);
             this.panel23.Controls.Add(this.label10);
             this.panel23.Location = new System.Drawing.Point(3, 140);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(362, 63);
             this.panel23.TabIndex = 3;
             // 
-            // comboBox2
+            // comboBox_kindOfAcc
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(112, 24);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(247, 21);
-            this.comboBox2.TabIndex = 3;
+            this.comboBox_kindOfAcc.FormattingEnabled = true;
+            this.comboBox_kindOfAcc.Location = new System.Drawing.Point(112, 24);
+            this.comboBox_kindOfAcc.Name = "comboBox_kindOfAcc";
+            this.comboBox_kindOfAcc.Size = new System.Drawing.Size(247, 21);
+            this.comboBox_kindOfAcc.TabIndex = 3;
             // 
             // label10
             // 
@@ -221,19 +221,19 @@
             // 
             // panel24
             // 
-            this.panel24.Controls.Add(this.textBox4);
+            this.panel24.Controls.Add(this.textBox_Name);
             this.panel24.Controls.Add(this.label11);
             this.panel24.Location = new System.Drawing.Point(4, 73);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(362, 63);
             this.panel24.TabIndex = 1;
             // 
-            // textBox4
+            // textBox_Name
             // 
-            this.textBox4.Location = new System.Drawing.Point(111, 22);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(247, 20);
-            this.textBox4.TabIndex = 1;
+            this.textBox_Name.Location = new System.Drawing.Point(111, 22);
+            this.textBox_Name.Name = "textBox_Name";
+            this.textBox_Name.Size = new System.Drawing.Size(247, 20);
+            this.textBox_Name.TabIndex = 1;
             // 
             // label11
             // 
@@ -247,20 +247,20 @@
             // 
             // panel25
             // 
-            this.panel25.Controls.Add(this.textBox5);
+            this.panel25.Controls.Add(this.textBox_UserName);
             this.panel25.Controls.Add(this.label12);
             this.panel25.Location = new System.Drawing.Point(4, 4);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(362, 63);
             this.panel25.TabIndex = 0;
             // 
-            // textBox5
+            // textBox_UserName
             // 
-            this.textBox5.Location = new System.Drawing.Point(111, 23);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(247, 20);
-            this.textBox5.TabIndex = 4;
+            this.textBox_UserName.Location = new System.Drawing.Point(111, 23);
+            this.textBox_UserName.Name = "textBox_UserName";
+            this.textBox_UserName.ReadOnly = true;
+            this.textBox_UserName.Size = new System.Drawing.Size(247, 20);
+            this.textBox_UserName.TabIndex = 4;
             // 
             // label12
             // 
@@ -527,19 +527,19 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.textBox2);
+            this.panel15.Controls.Add(this.textBox_NameCata);
             this.panel15.Controls.Add(this.label7);
             this.panel15.Location = new System.Drawing.Point(4, 73);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(362, 63);
             this.panel15.TabIndex = 1;
             // 
-            // textBox2
+            // textBox_NameCata
             // 
-            this.textBox2.Location = new System.Drawing.Point(111, 22);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(247, 20);
-            this.textBox2.TabIndex = 1;
+            this.textBox_NameCata.Location = new System.Drawing.Point(111, 22);
+            this.textBox_NameCata.Name = "textBox_NameCata";
+            this.textBox_NameCata.Size = new System.Drawing.Size(247, 20);
+            this.textBox_NameCata.TabIndex = 1;
             // 
             // label7
             // 
@@ -761,20 +761,21 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.textBox_ID);
+            this.panel7.Controls.Add(this.textBox_IDFood);
             this.panel7.Controls.Add(this.label1);
             this.panel7.Location = new System.Drawing.Point(4, 4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(362, 63);
             this.panel7.TabIndex = 0;
             // 
-            // textBox_ID
+            // textBox_IDFood
             // 
-            this.textBox_ID.Location = new System.Drawing.Point(111, 23);
-            this.textBox_ID.Name = "textBox_ID";
-            this.textBox_ID.ReadOnly = true;
-            this.textBox_ID.Size = new System.Drawing.Size(247, 20);
-            this.textBox_ID.TabIndex = 4;
+            this.textBox_IDFood.Location = new System.Drawing.Point(111, 23);
+            this.textBox_IDFood.Name = "textBox_IDFood";
+            this.textBox_IDFood.ReadOnly = true;
+            this.textBox_IDFood.Size = new System.Drawing.Size(247, 20);
+            this.textBox_IDFood.TabIndex = 4;
+            this.textBox_IDFood.TextChanged += new System.EventHandler(this.textBox_IDFood_TextChanged);
             // 
             // label1
             // 
@@ -805,6 +806,7 @@
             this.button_viewFood.TabIndex = 7;
             this.button_viewFood.Text = "Xem";
             this.button_viewFood.UseVisualStyleBackColor = true;
+            this.button_viewFood.Click += new System.EventHandler(this.button_viewFood_Click);
             // 
             // button_changeFood
             // 
@@ -1016,7 +1018,7 @@
         private System.Windows.Forms.TextBox textBox_foodName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox_ID;
+        private System.Windows.Forms.TextBox textBox_IDFood;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button_viewFood;
@@ -1037,13 +1039,13 @@
         private System.Windows.Forms.DataGridView dataGridView_Acc;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox_kindOfAcc;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel24;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox_Name;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox_UserName;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel26;
         private System.Windows.Forms.Button button_viewAcc;
@@ -1071,7 +1073,7 @@
         private System.Windows.Forms.DataGridView dataGridView_Cata;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox_NameCata;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.TextBox textBox_cataID;

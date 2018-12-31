@@ -37,5 +37,15 @@ namespace QUANLIBANHANG.DAL
             }
             return catagories;
         }
+
+        public Category GetCategoryByID( int id)
+        {
+            Category category = null;
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT * FROM FOODCATEGORY WHERE ID='"+id+"'");
+            category = new Category(dataTable.Rows[0]);
+            return category;
+
+        }
+
     }
 }

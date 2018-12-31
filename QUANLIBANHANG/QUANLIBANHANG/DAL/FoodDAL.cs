@@ -40,7 +40,7 @@ namespace QUANLIBANHANG.DAL
         public List<Food> GetFoods()
         {
             List<Food> foods = new List<Food>();
-            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT DISTINCT * FROM FOOD F , FOODCATEGORY FC WHERE F.IDCATEGORY=FC.ID  ORDER BY FC.NAME DESC ");
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT  * FROM FOOD");
             foreach (DataRow row in dataTable.Rows)
             {
                 Food food = new Food(row);
