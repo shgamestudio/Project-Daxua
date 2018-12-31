@@ -39,7 +39,11 @@ namespace QUANLIBANHANG.DAL
             return null;
         }
 
-
+        public bool EditAcc(string username, string name, string password, string newpassword)
+        {
+            int result = DataProvider.Instance.ExcuteNonQuery("USP_EDITACCOUNT @USERNAME , @NAME , @PASSWORD , @NEWPASSWORD", new object[] {username,name,password,newpassword });
+            return result > 0;
+        }
 
     }
 

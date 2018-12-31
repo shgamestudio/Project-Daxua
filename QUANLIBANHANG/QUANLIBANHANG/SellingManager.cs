@@ -112,7 +112,13 @@ namespace QUANLIBANHANG
         private void thôngTinTàiKhoảnToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AccountInfo accountInfo = new AccountInfo(account);
+            accountInfo.UpdateAccount += AccountInfo_UpdateAccount;
             accountInfo.ShowDialog();
+        }
+
+        private void AccountInfo_UpdateAccount(object sender, AccountInfo.AccountEvent e)
+        {
+            this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản ("+e.Acc.UserName+")";
         }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)

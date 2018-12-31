@@ -129,6 +129,7 @@
             this.button_Changedpass.TabIndex = 10;
             this.button_Changedpass.Text = "Đổi";
             this.button_Changedpass.UseVisualStyleBackColor = true;
+            this.button_Changedpass.Click += new System.EventHandler(this.button_Changedpass_Click);
             // 
             // AccountInfo
             // 
@@ -147,6 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "AccountInfo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AccountInfo";
             this.ResumeLayout(false);
             this.PerformLayout();

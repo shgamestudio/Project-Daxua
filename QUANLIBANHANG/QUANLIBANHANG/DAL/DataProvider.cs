@@ -57,14 +57,27 @@ namespace QUANLIBANHANG.DAL
             }
             return dataTable;
         }
-        public int ExcuteNonQuery(string query)
+        public int ExcuteNonQuery(string query, object[] parameter = null)
         {
             int i = 0;
             using (SqlConnection SQLconnection = new SqlConnection(conection))
             {
                 SQLconnection.Open();
                 SqlCommand sqlCommand = new SqlCommand(query, SQLconnection);
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand);
+               
+                if (parameter != null)
+                {
+                    string[] listpara = query.Split(' ');
+                    int j = 0;
+                    foreach (string item in listpara)
+                    {
+                        if (item.Contains("@"))
+                        {
+                            sqlCommand.Parameters.AddWithValue(item, parameter[j]);
+                            j++;
+                        }
+                    }
+                }
                 i = sqlCommand.ExecuteNonQuery();
                 SQLconnection.Close();
             }
