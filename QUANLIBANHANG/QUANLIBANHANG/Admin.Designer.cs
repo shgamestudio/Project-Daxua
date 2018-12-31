@@ -843,6 +843,7 @@
             // 
             // dataGridView_Food
             // 
+            this.dataGridView_Food.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_Food.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Food.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Food.Location = new System.Drawing.Point(0, 0);

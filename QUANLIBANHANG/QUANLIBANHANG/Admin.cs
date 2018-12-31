@@ -19,6 +19,12 @@ namespace QUANLIBANHANG
 
             loadAccList();
             LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
+            LoadFood();
+        }
+
+        private void LoadFood()
+        {
+            dataGridView_Food.DataSource = FoodDAL.Instance.GetFoods();
         }
 
         void loadAccList()

@@ -36,6 +36,8 @@ namespace QUANLIBANHANG
             isAdmin(account.KindOfAcc);
         }
 
+        
+
         private void isAdmin( int type)
         {
             adminToolStripMenuItem.Enabled = (type == 1);
