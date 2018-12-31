@@ -43,13 +43,19 @@ namespace QUANLIBANHANG.DAL
 
         public void InsertValueBill(int id)
         {
-            DataProvider.Instance.ExcuteQuery("INSERT INTO BILL VALUES (GETDATE(),NULL,'" + id + " ','0' )");
+            DataProvider.Instance.ExcuteQuery("INSERT INTO BILL VALUES (GETDATE(),NULL,'" + id + " ','0','0' )");
         }
         public int GetMaxBillIndex()
         {
             DataTable dataTable= DataProvider.Instance.ExcuteQuery("select max(ID) AS ID FROM BILL");
             int i = (int)dataTable.Rows[0]["ID"];
             return i;
+        }
+
+        public DataTable GetBillsByDate(DateTime DateIn,DateTime DateOut)
+        {
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("USP_SELECTBILLBYDATE @DATEIN , @DATEOUT ", new object[] {DateIn,DateOut });
+            return dataTable;
         }
     }
 }

@@ -18,12 +18,23 @@ namespace QUANLIBANHANG
             InitializeComponent();
 
             loadAccList();
+            LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
         }
 
         void loadAccList()
         {
             string query = "SELECT USERNAME as[Tên Tài Khoản],NAME as[Tên Hiển Thị], KINDOFACC as[Loại Tài Khoản] FROM ACCOUNT";
             dataGridView_Acc.DataSource =DataProvider.Instance.ExcuteQuery(query);
+        }
+
+        void LoadBillsByDate(DateTime datein,DateTime dateout)
+        {
+            dataGridView_Bills.DataSource = BillDAL.Instance.GetBillsByDate(datein, dateout);
+        }
+
+        private void button_List_Click(object sender, EventArgs e)
+        {
+            LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
         }
     }
 }

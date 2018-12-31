@@ -155,6 +155,11 @@ namespace QUANLIBANHANG
         private void Button_Pay_Click(object sender, EventArgs e)
         {
             Table id = listView1.Tag as Table;
+            if(id==null)
+            {
+                MessageBox.Show("Vui lòng chọn bàn và thêm món ăn", "Thông báo");
+                return;
+            }
             int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
             if(idBill!=-1)
             {

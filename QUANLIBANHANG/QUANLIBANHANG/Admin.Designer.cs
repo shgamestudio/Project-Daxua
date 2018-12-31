@@ -874,23 +874,26 @@
             // 
             // button_List
             // 
-            this.button_List.Location = new System.Drawing.Point(300, 0);
+            this.button_List.Location = new System.Drawing.Point(348, 0);
             this.button_List.Name = "button_List";
             this.button_List.Size = new System.Drawing.Size(75, 23);
             this.button_List.TabIndex = 2;
             this.button_List.Text = "Liệt Kê";
             this.button_List.UseVisualStyleBackColor = true;
+            this.button_List.Click += new System.EventHandler(this.button_List_Click);
             // 
             // dateTimePicker_DateTo
             // 
-            this.dateTimePicker_DateTo.Location = new System.Drawing.Point(472, 3);
+            this.dateTimePicker_DateTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_DateTo.Location = new System.Drawing.Point(518, 3);
             this.dateTimePicker_DateTo.Name = "dateTimePicker_DateTo";
             this.dateTimePicker_DateTo.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker_DateTo.TabIndex = 1;
             // 
             // dateTimePicker_DateFrom
             // 
-            this.dateTimePicker_DateFrom.Location = new System.Drawing.Point(33, 3);
+            this.dateTimePicker_DateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_DateFrom.Location = new System.Drawing.Point(53, 3);
             this.dateTimePicker_DateFrom.Name = "dateTimePicker_DateFrom";
             this.dateTimePicker_DateFrom.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker_DateFrom.TabIndex = 0;
@@ -905,6 +908,7 @@
             // 
             // dataGridView_Bills
             // 
+            this.dataGridView_Bills.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_Bills.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Bills.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Bills.Location = new System.Drawing.Point(0, 0);
@@ -933,6 +937,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Name = "Admin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";
             this.tab_Account.ResumeLayout(false);
             this.panel27.ResumeLayout(false);
