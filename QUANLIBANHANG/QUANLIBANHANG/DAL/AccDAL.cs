@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QUANLIBANHANG.DTO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace QUANLIBANHANG.DAL
 
         public static AccDAL Instance
         {
-            get { if (instance == null) instance = new AccDAL();  return instance; }
+            get { if (instance == null) {instance = new AccDAL(); }  return instance; }
             private set { instance = value; }
         }
 
@@ -28,7 +29,15 @@ namespace QUANLIBANHANG.DAL
 
             return result.Rows.Count > 0;
         }
-
+        public Accounts GetAccountByUserName(string UserName)
+        {
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT * FROM ACCOUNT WHERE USERNAME='" + UserName + "'");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                return new Accounts(row);
+            }
+            return null;
+        }
 
 
 

@@ -1,4 +1,5 @@
 ﻿using QUANLIBANHANG.DAL;
+using QUANLIBANHANG.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,7 +33,8 @@ namespace QUANLIBANHANG
             
             if (Login(userName,passWord))
             {
-                SellingManager sellingManager = new SellingManager();
+                Accounts accounts = AccDAL.Instance.GetAccountByUserName(userName);
+                SellingManager sellingManager = new SellingManager(accounts);
                 this.Hide();
                 sellingManager.ShowDialog();
                 this.Show();
@@ -41,6 +43,8 @@ namespace QUANLIBANHANG
             {
                 MessageBox.Show("Bạn nhập Sai tên tài khoản hoặc mật khẩu.");
             }
+            this.textBox_UserName.Clear();
+            this.textBox_UserPassword.Clear();
         }
 
         bool Login(string userName,string passWord)

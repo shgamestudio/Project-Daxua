@@ -16,11 +16,30 @@ namespace QUANLIBANHANG
 {
     public partial class SellingManager : Form
     {
-        public SellingManager()
+        private Accounts account;
+
+        public Accounts Account
+        { get => account;
+            set
+            {
+                account = value;
+            }
+        }
+
+        public SellingManager(Accounts loginaccount)
         {
+           
             InitializeComponent();
+            this.Account = loginaccount;
             LoadTable();
             LoadCatagory();
+            isAdmin(account.KindOfAcc);
+        }
+
+        private void isAdmin( int type)
+        {
+            adminToolStripMenuItem.Enabled = (type == 1);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Text += "(" + account.Name + ")";
         }
 
         public void LoadCatagory()
@@ -92,7 +111,7 @@ namespace QUANLIBANHANG
 
         private void thôngTinTàiKhoảnToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            AccountInfo accountInfo = new AccountInfo();
+            AccountInfo accountInfo = new AccountInfo(account);
             accountInfo.ShowDialog();
         }
 
