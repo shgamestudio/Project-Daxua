@@ -91,19 +91,19 @@ namespace QUANLIBANHANG
 
         void ShowBill(int idTable)
         {
+            CultureInfo cultureInfo = new CultureInfo("vn-VN");
             int totalPrice=0;
             listView1.Items.Clear();
             List<Menu> menus = MenuDAL.Instance.GetMenus(idTable);
             foreach (Menu menu in menus)
             {
                 ListViewItem listViewItem = new ListViewItem(menu.FoodName);
-                listViewItem.SubItems.Add(menu.Price.ToString());
+                listViewItem.SubItems.Add(menu.Price.ToString("C", cultureInfo));
                 listViewItem.SubItems.Add(menu.SoLuong.ToString());
-                listViewItem.SubItems.Add(menu.TotalPrice.ToString());
+                listViewItem.SubItems.Add(menu.TotalPrice.ToString("C", cultureInfo));
                 totalPrice += menu.TotalPrice;
                 listView1.Items.Add(listViewItem);
             }
-            CultureInfo cultureInfo = new CultureInfo("vn-VN");
             TextBox_TotalPrice.Text = totalPrice.ToString("C",cultureInfo);
             LoadTable();
         }
@@ -193,23 +193,19 @@ namespace QUANLIBANHANG
                 MessageBox.Show("Vui lòng chọn bàn và thêm món ăn", "Thông báo");
                 return;
             }
-            if (id.Status == "CÓ NGƯỜI")
+            int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
+            if (idBill != -1)
             {
-
-                int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
-                if (idBill != -1)
+                if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-                    if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
-                    {
                         BillDAL.Instance.Paid(idBill);
-                        ShowBill(id.ID);
-                    }
+                    ShowBill(id.ID);
                 }
             }
-            else
-            {
-                MessageBox.Show("Vui Lòng Chọn Món Ăn Trước Khi Thanh Toán", "Thông Báo");
-            }
+            
+            
+            
+            
         }
 
         private void button_PrintRecipe_Click(object sender, EventArgs e)
@@ -220,43 +216,42 @@ namespace QUANLIBANHANG
                 MessageBox.Show("Vui lòng chọn bàn và thêm món ăn", "Thông báo");
                 return;
             }
-            if (id.Status != "CÓ NGƯỜI")
+            int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
+            if (idBill != -1)
             {
-
-                int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
-                if (idBill != -1)
+                if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-                    if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
-                    {
-                        BillDAL.Instance.Paid(idBill);
+                    
+                    PrintDialog printDialog = new PrintDialog();
 
+                    PrintDocument printDocument = new PrintDocument();
+
+                    printDialog.Document = printDocument; //add the document to the dialog box...        
+
+                    printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(CreateReceipt); //add an event handler that will do the printing
+
+                    //on a till you will not want to ask the user where to print but this is fine for the test envoironment.
+
+                    DialogResult result = printDialog.ShowDialog();
+
+                    if (result == DialogResult.OK)
+                    {
+                        printDocument.Print();
+                        BillDAL.Instance.Paid(idBill);
                     }
+                    
+                    ShowBill(id.ID);
+                    if (WindowState == FormWindowState.Minimized)
+
+                    { WindowState = FormWindowState.Normal; }
+
                 }
             }
             else
             {
-                MessageBox.Show("Vui Lòng Chọn Món Ăn Trước Khi Thanh Toán", "Thông Báo");
                 return;
             }
-            PrintDialog printDialog = new PrintDialog();
-
-            PrintDocument printDocument = new PrintDocument();
-
-            printDialog.Document = printDocument; //add the document to the dialog box...        
-
-            printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(CreateReceipt); //add an event handler that will do the printing
-
-            //on a till you will not want to ask the user where to print but this is fine for the test envoironment.
-            this.Hide();
-            DialogResult result = printDialog.ShowDialog();
-
-            if (result == DialogResult.OK)
-            {
-                printDocument.Print();
-
-            }
-            ShowBill(id.ID);
-            this.Show();
+           
         }
 
         private void CreateReceipt(object sender, PrintPageEventArgs e)

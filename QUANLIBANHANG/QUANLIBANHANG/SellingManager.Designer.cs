@@ -70,7 +70,7 @@
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
-            this.thôngTinTàiKhoảnToolStripMenuItem.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.thôngTinTàiKhoảnToolStripMenuItem.BackColor = System.Drawing.Color.Azure;
             this.thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thôngTinTàiKhoảnToolStripMenuItem1,
             this.đăngXuấtToolStripMenuItem});
@@ -81,20 +81,20 @@
             // thôngTinTàiKhoảnToolStripMenuItem1
             // 
             this.thôngTinTàiKhoảnToolStripMenuItem1.Name = "thôngTinTàiKhoảnToolStripMenuItem1";
-            this.thôngTinTàiKhoảnToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
-            this.thôngTinTàiKhoảnToolStripMenuItem1.Text = "Thông tin tài khoản";
+            this.thôngTinTàiKhoảnToolStripMenuItem1.Size = new System.Drawing.Size(189, 22);
+            this.thôngTinTàiKhoảnToolStripMenuItem1.Text = "Đổi thông tin cá nhân";
             this.thôngTinTàiKhoảnToolStripMenuItem1.Click += new System.EventHandler(this.thôngTinTàiKhoảnToolStripMenuItem1_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // adminToolStripMenuItem
             // 
-            this.adminToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.adminToolStripMenuItem.BackColor = System.Drawing.Color.Azure;
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
@@ -102,7 +102,6 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel1.BackgroundImage")));
             this.flowLayoutPanel1.Location = new System.Drawing.Point(81, 51);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(323, 349);
@@ -110,14 +109,14 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightBlue;
+            this.panel1.BackColor = System.Drawing.Color.Azure;
             this.panel1.Controls.Add(this.numeric_SoLuong);
             this.panel1.Controls.Add(this.button_addFood);
             this.panel1.Controls.Add(this.comboBox_Food);
             this.panel1.Controls.Add(this.comboBox_Catagory);
-            this.panel1.Location = new System.Drawing.Point(422, 51);
+            this.panel1.Location = new System.Drawing.Point(422, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(441, 57);
+            this.panel1.Size = new System.Drawing.Size(441, 70);
             this.panel1.TabIndex = 2;
             // 
             // numeric_SoLuong
@@ -139,7 +138,7 @@
             // 
             // button_addFood
             // 
-            this.button_addFood.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_addFood.BackColor = System.Drawing.Color.Azure;
             this.button_addFood.Location = new System.Drawing.Point(246, 4);
             this.button_addFood.Name = "button_addFood";
             this.button_addFood.Size = new System.Drawing.Size(75, 48);
@@ -150,18 +149,20 @@
             // 
             // comboBox_Food
             // 
+            this.comboBox_Food.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_Food.FormattingEnabled = true;
-            this.comboBox_Food.Location = new System.Drawing.Point(4, 31);
+            this.comboBox_Food.Location = new System.Drawing.Point(4, 34);
             this.comboBox_Food.Name = "comboBox_Food";
-            this.comboBox_Food.Size = new System.Drawing.Size(235, 21);
+            this.comboBox_Food.Size = new System.Drawing.Size(235, 28);
             this.comboBox_Food.TabIndex = 1;
             // 
             // comboBox_Catagory
             // 
+            this.comboBox_Catagory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_Catagory.FormattingEnabled = true;
             this.comboBox_Catagory.Location = new System.Drawing.Point(4, 4);
             this.comboBox_Catagory.Name = "comboBox_Catagory";
-            this.comboBox_Catagory.Size = new System.Drawing.Size(235, 21);
+            this.comboBox_Catagory.Size = new System.Drawing.Size(235, 28);
             this.comboBox_Catagory.TabIndex = 0;
             this.comboBox_Catagory.SelectedIndexChanged += new System.EventHandler(this.comboBox_Catagory_SelectedIndexChanged);
             // 
@@ -175,7 +176,7 @@
             // 
             // listView1
             // 
-            this.listView1.BackColor = System.Drawing.Color.Pink;
+            this.listView1.BackColor = System.Drawing.Color.LavenderBlush;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
@@ -222,13 +223,13 @@
             // 
             // TextBox_TotalPrice
             // 
-            this.TextBox_TotalPrice.BackColor = System.Drawing.Color.Gold;
-            this.TextBox_TotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox_TotalPrice.Location = new System.Drawing.Point(729, 437);
+            this.TextBox_TotalPrice.BackColor = System.Drawing.Color.LavenderBlush;
+            this.TextBox_TotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox_TotalPrice.Location = new System.Drawing.Point(712, 435);
             this.TextBox_TotalPrice.Name = "TextBox_TotalPrice";
             this.TextBox_TotalPrice.ReadOnly = true;
             this.TextBox_TotalPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TextBox_TotalPrice.Size = new System.Drawing.Size(134, 26);
+            this.TextBox_TotalPrice.Size = new System.Drawing.Size(134, 31);
             this.TextBox_TotalPrice.TabIndex = 10;
             this.TextBox_TotalPrice.Text = "0";
             // 
@@ -269,7 +270,10 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "SellingManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang Chủ";

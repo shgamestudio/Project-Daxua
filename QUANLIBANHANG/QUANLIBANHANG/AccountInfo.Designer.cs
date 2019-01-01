@@ -58,7 +58,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(5, 57);
+            this.label2.Location = new System.Drawing.Point(5, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 15);
             this.label2.TabIndex = 1;
@@ -80,7 +80,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 116);
+            this.label4.Location = new System.Drawing.Point(5, 119);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 15);
             this.label4.TabIndex = 3;
@@ -91,7 +91,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 155);
+            this.label5.Location = new System.Drawing.Point(5, 156);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(152, 15);
             this.label5.TabIndex = 4;
@@ -124,7 +124,7 @@
             // textBox_newPass
             // 
             this.textBox_newPass.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox_newPass.Location = new System.Drawing.Point(160, 114);
+            this.textBox_newPass.Location = new System.Drawing.Point(160, 118);
             this.textBox_newPass.Name = "textBox_newPass";
             this.textBox_newPass.Size = new System.Drawing.Size(178, 20);
             this.textBox_newPass.TabIndex = 8;
@@ -152,7 +152,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(349, 263);
             this.Controls.Add(this.button_Changedpass);
             this.Controls.Add(this.textBox_newPassAgain);
@@ -166,6 +165,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AccountInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chỉnh sửa thông tin tài khoản";

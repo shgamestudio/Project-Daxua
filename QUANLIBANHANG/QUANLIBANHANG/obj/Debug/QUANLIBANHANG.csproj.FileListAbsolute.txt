@@ -51,3 +51,4 @@ H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\Q
 H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.exe
 H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.pdb
 H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\bin\Debug\pay.wav
+E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\bin\Debug\pay.wav
