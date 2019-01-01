@@ -60,7 +60,6 @@ namespace QUANLIBANHANG
         }
         #endregion
 
-
         #region Acc
         private void loadAccList()
         {

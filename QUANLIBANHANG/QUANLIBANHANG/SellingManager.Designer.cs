@@ -46,12 +46,10 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Button_Pay = new System.Windows.Forms.Button();
-            this.button_saleOff = new System.Windows.Forms.Button();
-            this.button_moveTable = new System.Windows.Forms.Button();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.TextBox_TotalPrice = new System.Windows.Forms.TextBox();
             this.label_TableName = new System.Windows.Forms.Label();
+            this.button_saleOff = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_SoLuong)).BeginInit();
@@ -214,28 +212,10 @@
             this.Button_Pay.UseVisualStyleBackColor = true;
             this.Button_Pay.Click += new System.EventHandler(this.Button_Pay_Click);
             // 
-            // button_saleOff
-            // 
-            this.button_saleOff.Location = new System.Drawing.Point(452, 382);
-            this.button_saleOff.Name = "button_saleOff";
-            this.button_saleOff.Size = new System.Drawing.Size(99, 26);
-            this.button_saleOff.TabIndex = 5;
-            this.button_saleOff.Text = "Giảm Giá";
-            this.button_saleOff.UseVisualStyleBackColor = true;
-            // 
-            // button_moveTable
-            // 
-            this.button_moveTable.Location = new System.Drawing.Point(347, 382);
-            this.button_moveTable.Name = "button_moveTable";
-            this.button_moveTable.Size = new System.Drawing.Size(99, 26);
-            this.button_moveTable.TabIndex = 6;
-            this.button_moveTable.Text = "Chuyển Bàn";
-            this.button_moveTable.UseVisualStyleBackColor = true;
-            this.button_moveTable.Click += new System.EventHandler(this.button2_Click);
-            // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(452, 414);
+            this.numericUpDown3.Enabled = false;
+            this.numericUpDown3.Location = new System.Drawing.Point(399, 416);
             this.numericUpDown3.Minimum = new decimal(new int[] {
             100,
             0,
@@ -244,14 +224,6 @@
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(95, 20);
             this.numericUpDown3.TabIndex = 8;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(347, 414);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(99, 21);
-            this.comboBox3.TabIndex = 9;
             // 
             // TextBox_TotalPrice
             // 
@@ -274,6 +246,16 @@
             this.label_TableName.TabIndex = 11;
             this.label_TableName.Text = ".";
             // 
+            // button_saleOff
+            // 
+            this.button_saleOff.Enabled = false;
+            this.button_saleOff.Location = new System.Drawing.Point(395, 384);
+            this.button_saleOff.Name = "button_saleOff";
+            this.button_saleOff.Size = new System.Drawing.Size(99, 26);
+            this.button_saleOff.TabIndex = 5;
+            this.button_saleOff.Text = "Giảm Giá";
+            this.button_saleOff.UseVisualStyleBackColor = true;
+            // 
             // SellingManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -281,9 +263,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label_TableName);
             this.Controls.Add(this.TextBox_TotalPrice);
-            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.button_moveTable);
             this.Controls.Add(this.button_saleOff);
             this.Controls.Add(this.Button_Pay);
             this.Controls.Add(this.panel2);
@@ -321,15 +301,13 @@
         private System.Windows.Forms.Button button_addFood;
         private System.Windows.Forms.ComboBox comboBox_Food;
         private System.Windows.Forms.Button Button_Pay;
-        private System.Windows.Forms.Button button_saleOff;
-        private System.Windows.Forms.Button button_moveTable;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.TextBox TextBox_TotalPrice;
         private System.Windows.Forms.Label label_TableName;
+        private System.Windows.Forms.Button button_saleOff;
     }
 }
