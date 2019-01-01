@@ -36,9 +36,9 @@ namespace QUANLIBANHANG
         private void addFoodBinding()
         {
 
-            textBox_IDFood.DataBindings.Add(new Binding("Text", dataGridView_Food.DataSource, "ID"));
-            textBox_foodName.DataBindings.Add(new Binding("Text", dataGridView_Food.DataSource, "NAME"));
-            numericUpDown__Price.DataBindings.Add(new Binding("Value", dataGridView_Food.DataSource, "PRICE"));
+            textBox_IDFood.DataBindings.Add(new Binding("Text", dataGridView_Food.DataSource, "ID",true,DataSourceUpdateMode.Never));
+            textBox_foodName.DataBindings.Add(new Binding("Text", dataGridView_Food.DataSource, "NAME", true, DataSourceUpdateMode.Never));
+            numericUpDown__Price.DataBindings.Add(new Binding("Value", dataGridView_Food.DataSource, "PRICE", true, DataSourceUpdateMode.Never));
         }
 
         private void LoadFood()
@@ -87,6 +87,54 @@ namespace QUANLIBANHANG
                     temp++;
                 }
                 comboBox_foodCata.SelectedIndex = index;
+            }
+        }
+
+        private void button_addFood_Click(object sender, EventArgs e)
+        {
+            string name = textBox_foodName.Text;
+            int cataid = (comboBox_foodCata.SelectedItem as Category).ID;
+            int price = (int)numericUpDown__Price.Value;
+            if(FoodDAL.Instance.InsertFood(name,cataid,price))
+            {
+                MessageBox.Show("Thêm thành công", "Thông báo");
+                LoadFood();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+        }
+
+        private void button_changeFood_Click(object sender, EventArgs e)
+        {
+            
+            int ID = Convert.ToInt32(textBox_IDFood.Text);
+            string name = textBox_foodName.Text;
+            int cataid = (comboBox_foodCata.SelectedItem as Category).ID;
+            int price = (int)numericUpDown__Price.Value;
+            if (FoodDAL.Instance.EditFood(ID,name, cataid, price))
+            {
+                MessageBox.Show("Sửa Thành Công", "Thông báo");
+                LoadFood();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+        }
+
+        private void button_deleteFood_Click(object sender, EventArgs e)
+        {
+            int ID = Convert.ToInt32(textBox_IDFood.Text);
+            if (FoodDAL.Instance.DeleteFoodByID(ID))
+            {
+                MessageBox.Show("Xóa Thành Công", "Thông báo");
+                LoadFood();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
             }
         }
     }

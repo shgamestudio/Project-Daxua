@@ -40,7 +40,7 @@ namespace QUANLIBANHANG.DAL
         public List<Food> GetFoods()
         {
             List<Food> foods = new List<Food>();
-            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT  * FROM FOOD");
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT  * FROM FOOD ORDER BY IDCATEGORY ASC");
             foreach (DataRow row in dataTable.Rows)
             {
                 Food food = new Food(row);
@@ -48,5 +48,26 @@ namespace QUANLIBANHANG.DAL
             }
             return foods;
         }
+
+        public bool InsertFood(string name, int catagoryID, int price)
+        {
+            string query = string.Format("INSERT FOOD VALUES(N'{0}',N'{1}',N'{2}')", name, catagoryID, price);
+            int result =DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+        public bool EditFood(int id,string name, int catagoryID, int price)
+        {
+            string query = string.Format("UPDATE FOOD SET NAME='{0}', IDCATAGORY='{1}', PRICE='{2}' WHERE ID={3}             )", name, catagoryID, price,id);
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+
+        public bool DeleteFoodByID(int id)
+        {
+            BillInfoDAL.Instance.DeleteBillInfoByFoodId(id);
+            int result = DataProvider.Instance.ExcuteNonQuery("DELETE FOOD WHERE ID='" + id + "'");
+            return result > 0;
+        }
+
     }
 }

@@ -41,5 +41,11 @@ namespace QUANLIBANHANG.DAL
         {
             DataProvider.Instance.ExcuteQuery("USP_insertBillinfo @idbill , @idfood , @count ", new object[] {idBILL,idFOOD,SOLUONG });
         }
+
+        public void DeleteBillInfoByFoodId(int id)
+        {
+            DataProvider.Instance.ExcuteQuery("DELETE BILLINFO WHERE IDFOOD='" + id + "'");
+        }
+
     }
 }
