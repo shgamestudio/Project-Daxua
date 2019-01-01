@@ -50,6 +50,7 @@
             this.TextBox_TotalPrice = new System.Windows.Forms.TextBox();
             this.label_TableName = new System.Windows.Forms.Label();
             this.button_saleOff = new System.Windows.Forms.Button();
+            this.button_PrintRecipe = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_SoLuong)).BeginInit();
@@ -208,21 +209,21 @@
             this.Button_Pay.Name = "Button_Pay";
             this.Button_Pay.Size = new System.Drawing.Size(99, 48);
             this.Button_Pay.TabIndex = 4;
-            this.Button_Pay.Text = "Thanh Toán";
+            this.Button_Pay.Text = "Thanh Toán Không In Hóa Đơn";
             this.Button_Pay.UseVisualStyleBackColor = true;
             this.Button_Pay.Click += new System.EventHandler(this.Button_Pay_Click);
             // 
             // numericUpDown3
             // 
             this.numericUpDown3.Enabled = false;
-            this.numericUpDown3.Location = new System.Drawing.Point(399, 416);
+            this.numericUpDown3.Location = new System.Drawing.Point(448, 416);
             this.numericUpDown3.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown3.Size = new System.Drawing.Size(99, 20);
             this.numericUpDown3.TabIndex = 8;
             // 
             // TextBox_TotalPrice
@@ -249,18 +250,29 @@
             // button_saleOff
             // 
             this.button_saleOff.Enabled = false;
-            this.button_saleOff.Location = new System.Drawing.Point(395, 384);
+            this.button_saleOff.Location = new System.Drawing.Point(448, 384);
             this.button_saleOff.Name = "button_saleOff";
             this.button_saleOff.Size = new System.Drawing.Size(99, 26);
             this.button_saleOff.TabIndex = 5;
             this.button_saleOff.Text = "Giảm Giá";
             this.button_saleOff.UseVisualStyleBackColor = true;
             // 
+            // button_PrintRecipe
+            // 
+            this.button_PrintRecipe.Location = new System.Drawing.Point(347, 381);
+            this.button_PrintRecipe.Name = "button_PrintRecipe";
+            this.button_PrintRecipe.Size = new System.Drawing.Size(81, 50);
+            this.button_PrintRecipe.TabIndex = 12;
+            this.button_PrintRecipe.Text = "Thanh Toán Có In Hóa Đơn";
+            this.button_PrintRecipe.UseVisualStyleBackColor = true;
+            this.button_PrintRecipe.Click += new System.EventHandler(this.button_PrintRecipe_Click);
+            // 
             // SellingManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_PrintRecipe);
             this.Controls.Add(this.label_TableName);
             this.Controls.Add(this.TextBox_TotalPrice);
             this.Controls.Add(this.numericUpDown3);
@@ -310,5 +322,6 @@
         private System.Windows.Forms.TextBox TextBox_TotalPrice;
         private System.Windows.Forms.Label label_TableName;
         private System.Windows.Forms.Button button_saleOff;
+        private System.Windows.Forms.Button button_PrintRecipe;
     }
 }

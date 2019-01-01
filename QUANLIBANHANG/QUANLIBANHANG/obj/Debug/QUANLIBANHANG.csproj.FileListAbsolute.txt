@@ -11,7 +11,6 @@ E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUAN
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.SellingManager.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Admin.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Function.resources
-E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.csprojAssemblyReference.cache
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.AccountInfo.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Admin.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Function.resources

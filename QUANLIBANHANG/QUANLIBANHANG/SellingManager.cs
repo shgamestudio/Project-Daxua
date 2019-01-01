@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace QUANLIBANHANG
     public partial class SellingManager : Form
     {
         private Accounts account;
-
+        
         public Accounts Account
         { get => account;
             set
@@ -30,6 +31,7 @@ namespace QUANLIBANHANG
         {
            
             InitializeComponent();
+            
             this.Account = loginaccount;
             LoadTable();
             LoadCatagory();
@@ -86,7 +88,7 @@ namespace QUANLIBANHANG
 
         void ShowBill(int idTable)
         {
-            int totalPrice=0;
+            int totalPrice = 0;
             listView1.Items.Clear();
             List<Menu> menus = MenuDAL.Instance.GetMenus(idTable);
             foreach (Menu menu in menus)
@@ -99,7 +101,7 @@ namespace QUANLIBANHANG
                 listView1.Items.Add(listViewItem);
             }
             CultureInfo cultureInfo = new CultureInfo("vn-VN");
-            TextBox_TotalPrice.Text = totalPrice.ToString("C",cultureInfo);
+            TextBox_TotalPrice.Text = totalPrice.ToString("C", cultureInfo);
             LoadTable();
         }
         private void Button_Click(object sender, EventArgs e)
@@ -183,20 +185,134 @@ namespace QUANLIBANHANG
         private void Button_Pay_Click(object sender, EventArgs e)
         {
             Table id = listView1.Tag as Table;
-            if(id==null)
+            if (id == null)
             {
                 MessageBox.Show("Vui lòng chọn bàn và thêm món ăn", "Thông báo");
                 return;
             }
-            int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
-            if(idBill!=-1)
+            if (id.Status == "CÓ NGƯỜI")
             {
-                if(MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho "+id.Name,"Thông Báo",MessageBoxButtons.OKCancel)==DialogResult.OK)
+                
+                int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
+                if (idBill != -1)
                 {
-                    BillDAL.Instance.Paid(idBill);
-                    ShowBill(id.ID);
+                    if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                    {
+                        BillDAL.Instance.Paid(idBill);
+                        ShowBill(id.ID);
+                    }
                 }
             }
+            else
+            {
+                MessageBox.Show("Vui Lòng Chọn Món Ăn Trước Khi Thanh Toán", "Thông Báo");
+            }
+        }
+
+        private void button_PrintRecipe_Click(object sender, EventArgs e)
+        {
+            Table id = listView1.Tag as Table;
+            if (id == null)
+            {
+                MessageBox.Show("Vui lòng chọn bàn và thêm món ăn", "Thông báo");
+                return;
+            }
+            if (id.Status != "CÓ NGƯỜI")
+            {
+<<<<<<< HEAD
+                
+=======
+
+>>>>>>> parent of 42c3b56... h
+                int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
+                if (idBill != -1)
+                {
+                    if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                    {
+                        BillDAL.Instance.Paid(idBill);
+                        
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui Lòng Chọn Món Ăn Trước Khi Thanh Toán", "Thông Báo");
+                return;
+            }
+            PrintDialog printDialog = new PrintDialog();
+
+            PrintDocument printDocument = new PrintDocument();
+
+            printDialog.Document = printDocument; //add the document to the dialog box...        
+
+            printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(CreateReceipt); //add an event handler that will do the printing
+
+            //on a till you will not want to ask the user where to print but this is fine for the test envoironment.
+            this.Hide();
+            DialogResult result = printDialog.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                printDocument.Print();
+
+            }
+            ShowBill(id.ID);
+            this.Show();
+        }
+
+        private void CreateReceipt(object sender, PrintPageEventArgs e)
+        {
+            
+            //this prints the reciept
+
+            Graphics graphic = e.Graphics;
+
+            Font font = new Font("Courier New", 12); //must use a mono spaced font as the spaces need to line up
+
+            float fontHeight = font.GetHeight();
+
+            int startX = 10;
+            int startY = 10;
+            int offset = 40;
+
+            graphic.DrawString(" SH Restaurants", new Font("Courier New", 18), new SolidBrush(Color.Black), startX, startY);
+            string top = "Tên Món Ăn".PadRight(20) +"Giá".PadRight(15)+ "Số Lượng".PadRight(10)+"Tổng Tiền";
+            graphic.DrawString(top, font, new SolidBrush(Color.Black), startX, startY + offset);
+            offset = offset + (int)fontHeight; //make the spacing consistent
+            graphic.DrawString("----------------------------------------------------------", font, new SolidBrush(Color.Black), startX, startY + offset);
+            offset = offset + (int)fontHeight + 5; //make the spacing consistent
+
+            
+            string totalprice = TextBox_TotalPrice.Text;
+
+            foreach (ListViewItem item in listView1.Items)
+            {
+                //create the string to print on the reciept
+                string FoodName = item.SubItems[0].Text;
+                string Price = item.SubItems[1].Text;
+                string Count = item.SubItems[2].Text;
+                string TotalPriceByFood = item.SubItems[3].Text;
+               
+                    string productLine = FoodName.PadRight(20) + Price.PadRight(15) + Count.PadRight(10) + TotalPriceByFood;
+
+                graphic.DrawString(productLine, font, new SolidBrush(Color.Black), startX, startY + offset);
+
+                    offset = offset + (int)fontHeight + 5; //make the spacing consistent
+                //}
+
+            }
+
+            offset = offset + 30;
+            graphic.DrawString("----------------------------------------------------------", font, new SolidBrush(Color.Black), startX, startY + offset);
+            offset = offset + 30;
+            graphic.DrawString("Total to pay ".PadRight(45) + totalprice, new Font("Courier New", 12, FontStyle.Bold), new SolidBrush(Color.Black), startX, startY + offset);
+
+            offset = offset + 30; //make some room so that the total stands out.
+            
+            graphic.DrawString("     Cảm Ơn Quý Khách,", font, new SolidBrush(Color.Black), startX, startY + offset);
+            offset = offset + 15;
+            graphic.DrawString("       Hẹn Gặp Lại", font, new SolidBrush(Color.Black), startX, startY + offset);
+
         }
     }
 }
