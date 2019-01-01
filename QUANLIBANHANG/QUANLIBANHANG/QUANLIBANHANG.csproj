@@ -104,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SellingManager.resx">
       <DependentUpon>SellingManager.cs</DependentUpon>
@@ -120,6 +121,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thoatexit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thoatexit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pay.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -46,6 +46,25 @@ namespace QUANLIBANHANG.DAL
             return category;
 
         }
+        public bool InsertCate(string name)
+        {
+            string query = string.Format("INSERT FOODCATEGORY VALUES(N'{0}')", name);
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+        public bool EditCate(int id,string name)
+        {
+            string query = string.Format("UPDATE FOODCATEGORY SET NAME=N'{0}' WHERE ID=N'{1}'", name,id);
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+
+        public bool DeleteCateByID(int id)
+        {
+            FoodDAL.Instance.DeleteFoodByCateID(id);
+            int result = DataProvider.Instance.ExcuteNonQuery("DELETE FOODCATEGORY WHERE ID='" + id + "'");
+            return result > 0;
+        }
 
     }
 }
