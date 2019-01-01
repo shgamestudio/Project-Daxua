@@ -38,7 +38,7 @@ namespace QUANLIBANHANG
             LoadCatagory();
             isAdmin(account.KindOfAcc);
 
-            _soundPlayer_pay = new SoundPlayer("pay.wav");
+            _soundPlayer_pay = new SoundPlayer("...//...//Resources//pay.wav");
         }
 
         
