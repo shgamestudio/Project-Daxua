@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(379, 44);
+            this.label1.Location = new System.Drawing.Point(20, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(379, 71);
+            this.label2.Location = new System.Drawing.Point(20, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(379, 97);
+            this.label3.Location = new System.Drawing.Point(20, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 13);
             this.label3.TabIndex = 2;
@@ -71,7 +71,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(379, 125);
+            this.label4.Location = new System.Drawing.Point(20, 114);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 3;
@@ -80,7 +80,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(379, 154);
+            this.label5.Location = new System.Drawing.Point(20, 143);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(112, 13);
             this.label5.TabIndex = 4;
@@ -88,42 +88,42 @@
             // 
             // textBox_DisplayName
             // 
-            this.textBox_DisplayName.Location = new System.Drawing.Point(506, 41);
+            this.textBox_DisplayName.Location = new System.Drawing.Point(147, 30);
             this.textBox_DisplayName.Name = "textBox_DisplayName";
             this.textBox_DisplayName.Size = new System.Drawing.Size(178, 20);
             this.textBox_DisplayName.TabIndex = 5;
             // 
             // textBox_NameUser
             // 
-            this.textBox_NameUser.Location = new System.Drawing.Point(506, 68);
+            this.textBox_NameUser.Location = new System.Drawing.Point(147, 57);
             this.textBox_NameUser.Name = "textBox_NameUser";
             this.textBox_NameUser.Size = new System.Drawing.Size(178, 20);
             this.textBox_NameUser.TabIndex = 6;
             // 
             // textBox_OldPass
             // 
-            this.textBox_OldPass.Location = new System.Drawing.Point(506, 94);
+            this.textBox_OldPass.Location = new System.Drawing.Point(147, 83);
             this.textBox_OldPass.Name = "textBox_OldPass";
             this.textBox_OldPass.Size = new System.Drawing.Size(178, 20);
             this.textBox_OldPass.TabIndex = 7;
             // 
             // textBox_newPass
             // 
-            this.textBox_newPass.Location = new System.Drawing.Point(506, 122);
+            this.textBox_newPass.Location = new System.Drawing.Point(147, 111);
             this.textBox_newPass.Name = "textBox_newPass";
             this.textBox_newPass.Size = new System.Drawing.Size(178, 20);
             this.textBox_newPass.TabIndex = 8;
             // 
             // textBox_newPassAgain
             // 
-            this.textBox_newPassAgain.Location = new System.Drawing.Point(506, 151);
+            this.textBox_newPassAgain.Location = new System.Drawing.Point(147, 140);
             this.textBox_newPassAgain.Name = "textBox_newPassAgain";
             this.textBox_newPassAgain.Size = new System.Drawing.Size(178, 20);
             this.textBox_newPassAgain.TabIndex = 9;
             // 
             // button_Changedpass
             // 
-            this.button_Changedpass.Location = new System.Drawing.Point(609, 207);
+            this.button_Changedpass.Location = new System.Drawing.Point(250, 196);
             this.button_Changedpass.Name = "button_Changedpass";
             this.button_Changedpass.Size = new System.Drawing.Size(75, 23);
             this.button_Changedpass.TabIndex = 10;
@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 384);
+            this.ClientSize = new System.Drawing.Size(349, 263);
             this.Controls.Add(this.button_Changedpass);
             this.Controls.Add(this.textBox_newPassAgain);
             this.Controls.Add(this.textBox_newPass);
@@ -147,9 +147,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AccountInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AccountInfo";
+            this.Text = "Chỉnh sửa thông tin tài khoản";
             this.ResumeLayout(false);
             this.PerformLayout();
 

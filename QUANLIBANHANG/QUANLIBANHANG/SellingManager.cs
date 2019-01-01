@@ -191,7 +191,7 @@ namespace QUANLIBANHANG
             int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
             if(idBill!=-1)
             {
-                if(MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho Bàn"+id.Name,"Thông Báo",MessageBoxButtons.OKCancel)==DialogResult.OK)
+                if(MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho "+id.Name,"Thông Báo",MessageBoxButtons.OKCancel)==DialogResult.OK)
                 {
                     BillDAL.Instance.Paid(idBill);
                     ShowBill(id.ID);

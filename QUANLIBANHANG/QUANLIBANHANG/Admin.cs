@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,6 +17,7 @@ namespace QUANLIBANHANG
     {
         BindingSource bindingFood = new BindingSource();
         BindingSource bindingAcc = new BindingSource();
+        BindingSource bindingCate = new BindingSource();
         public Accounts loginacc;
         public Admin()
         {
@@ -27,17 +29,99 @@ namespace QUANLIBANHANG
             loadAccList();
 
             //bills
-
             LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
+
+
             //food
             dataGridView_Food.DataSource = bindingFood;
             LoadFood();
             addFoodBinding();
 
             //Cata
+            dataGridView_Cata.DataSource = bindingCate;
+            addCateBinding();
+            LoadCate();
             LoadCataIntoFoodCB(comboBox_foodCata);
+
+
+        }
+        private string FixNameFormat(string input)
+        {
+            input = input.ToLower();
+            input = " " + input;
+            foreach (Match m in Regex.Matches(input, @"\s\S"))
+            {
+                input = input.Replace(m.Value, m.Value.ToUpper());
+            }
+            return input.Substring(1);
         }
 
+        #region Category
+        private void LoadCate()
+        {
+            bindingCate.DataSource = CategoryDAL.Instance.GetCatagories();
+        }
+
+        private void addCateBinding()
+        {
+            textBox_cataID.DataBindings.Add(new Binding("Text",dataGridView_Cata.DataSource,"ID", true, DataSourceUpdateMode.Never));
+            textBox_NameCata.DataBindings.Add(new Binding("Text",dataGridView_Cata.DataSource,"NAME", true, DataSourceUpdateMode.Never));
+        }
+
+        private void insertCate(string name)
+        {
+            if (CategoryDAL.Instance.InsertCate(name))
+            {
+                MessageBox.Show("Thêm thành công", "Thông báo");
+                LoadCate();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+            LoadCate();
+        }
+
+        private void editCate(int id, string name)
+        {
+            if (CategoryDAL.Instance.EditCate(id,name))
+            {
+                MessageBox.Show("Sửa thành công", "Thông báo");
+                LoadCate();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+            LoadCate();
+        }
+        private void deleteCate(int id)
+        {
+            if (CategoryDAL.Instance.DeleteCateByID(id))
+            {
+                MessageBox.Show("Xóa thành công", "Thông báo");
+                LoadCate();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+            LoadCate();
+        }
+        private bool isExistCata(string name)
+        {
+            LoadCate();
+            int temp = dataGridView_Cata.RowCount;
+            for (int i = 0; i < temp; i++)
+            {
+                if (name == (dataGridView_Cata[1, i].Value.ToString()))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        #endregion
 
         #region Food
         private void LoadCataIntoFoodCB(ComboBox comboBox_foodCata)//load Cata vao Food CB
@@ -58,6 +142,59 @@ namespace QUANLIBANHANG
         {
             bindingFood.DataSource = FoodDAL.Instance.GetFoods();
         }
+
+        private void addFood(string name, int cataid, int price)
+        {
+            if (FoodDAL.Instance.InsertFood(name, cataid, price))
+            {
+                MessageBox.Show("Thêm thành công", "Thông báo");
+                LoadFood();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+        }
+
+        private void editFood(int ID, string name, int cateid, int price)
+        {
+            if (FoodDAL.Instance.EditFood(ID, name, cateid, price))
+            {
+                MessageBox.Show("Sửa Thành Công", "Thông báo");
+                LoadFood();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+        }
+
+        private void delFood(int ID)
+        {
+            if (FoodDAL.Instance.DeleteFoodByID(ID))
+            {
+                MessageBox.Show("Xóa Thành Công", "Thông báo");
+                LoadFood();
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+            }
+        }
+
+        private bool isExistFood(string name)
+        {
+            LoadFood();
+            int temp = dataGridView_Food.RowCount;
+            for (int i = 0; i < temp; i++)
+            {
+                if (name == (dataGridView_Food[1, i].Value.ToString()))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
         #endregion
 
         #region Acc
@@ -74,7 +211,7 @@ namespace QUANLIBANHANG
 
         #endregion
 
-        #region METHOR
+        #region METHORACC
         private void LoadBillsByDate(DateTime datein,DateTime dateout)
         {
             dataGridView_Bills.DataSource = BillDAL.Instance.GetBillsByDate(datein, dateout);
@@ -157,6 +294,8 @@ namespace QUANLIBANHANG
             loadAccList();
         }
 
+       
+
         #endregion
 
         #region EVENTS
@@ -164,6 +303,8 @@ namespace QUANLIBANHANG
         {
             LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
         }
+
+        
 
         private void button_viewFood_Click(object sender, EventArgs e)
         {
@@ -196,17 +337,15 @@ namespace QUANLIBANHANG
         private void button_addFood_Click(object sender, EventArgs e)
         {
             string name = textBox_foodName.Text;
+            name = FixNameFormat(name);
             int cataid = (comboBox_foodCata.SelectedItem as Category).ID;
             int price = (int)numericUpDown__Price.Value;
-            if(FoodDAL.Instance.InsertFood(name,cataid,price))
+            if(isExistFood(name))
             {
-                MessageBox.Show("Thêm thành công", "Thông báo");
-                LoadFood();
+                addFood(name, cataid, price);
             }
             else
-            {
-                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
-            }
+            { MessageBox.Show("Món Đã Tồn Tại", "Thông Báo"); }
         }
 
         private void button_changeFood_Click(object sender, EventArgs e)
@@ -214,30 +353,18 @@ namespace QUANLIBANHANG
             
             int ID = Convert.ToInt32(textBox_IDFood.Text);
             string name = textBox_foodName.Text;
-            int cataid = (comboBox_foodCata.SelectedItem as Category).ID;
+            int cateid = (comboBox_foodCata.SelectedItem as Category).ID;
             int price = (int)numericUpDown__Price.Value;
-            if (FoodDAL.Instance.EditFood(ID,name, cataid, price))
-            {
-                MessageBox.Show("Sửa Thành Công", "Thông báo");
-                LoadFood();
-            }
-            else
-            {
-                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
-            }
+            editFood(ID, name, cateid, price);
+            
         }
 
         private void button_deleteFood_Click(object sender, EventArgs e)
         {
-            int ID = Convert.ToInt32(textBox_IDFood.Text);
-            if (FoodDAL.Instance.DeleteFoodByID(ID))
+            if (MessageBox.Show("Xóa thức ăn này sẽ đồng nghĩa với Xóa mọi bill liên quan đến thức ăn đó", "Cảnh Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                MessageBox.Show("Xóa Thành Công", "Thông báo");
-                LoadFood();
-            }
-            else
-            {
-                MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
+                int ID = Convert.ToInt32(textBox_IDFood.Text);
+                delFood(ID);
             }
         }
 
@@ -274,6 +401,44 @@ namespace QUANLIBANHANG
             string UserName = textBox_UserName.Text;
             ResetPass(UserName);
         }
+
+        private void button_CataView_Click(object sender, EventArgs e)
+        {
+            LoadCate();
+        }
+
+        private void button_cataAdd_Click(object sender, EventArgs e)
+        {
+            string name = textBox_NameCata.Text;
+            name = FixNameFormat(name);
+            if(isExistCata(name))
+            {
+                insertCate(name);
+            }
+            else
+            {
+                MessageBox.Show("Trùng Tên", "Thông Báo");
+            }
+            
+        }
+
+        private void button_cataDelete_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Xóa Danh Mục này đồng nghĩa xóa tất cả món ăn thuộc Danh Mục này", "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                int temp = Convert.ToInt32(textBox_cataID.Text);
+                deleteCate(temp);
+            }
+        }
+
+        private void button_cataEdit_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(textBox_cataID.Text);
+            string name = textBox_NameCata.Text;
+            editCate(id, name);
+        }
+
+
         #endregion
 
 

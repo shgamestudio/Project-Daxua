@@ -55,9 +55,9 @@ namespace QUANLIBANHANG.DAL
             int result =DataProvider.Instance.ExcuteNonQuery(query);
             return result > 0;
         }
-        public bool EditFood(int id,string name, int catagoryID, int price)
+        public bool EditFood(int id,string name, int categoryID, int price)
         {
-            string query = string.Format("UPDATE FOOD SET NAME='{0}', IDCATAGORY='{1}', PRICE='{2}' WHERE ID={3}             )", name, catagoryID, price,id);
+            string query = string.Format("UPDATE FOOD SET NAME=N'{0}', IDCATEGORY='{1}', PRICE='{2}' WHERE ID={3}", name, categoryID, price,id);
             int result = DataProvider.Instance.ExcuteNonQuery(query);
             return result > 0;
         }
@@ -68,6 +68,12 @@ namespace QUANLIBANHANG.DAL
             int result = DataProvider.Instance.ExcuteNonQuery("DELETE FOOD WHERE ID='" + id + "'");
             return result > 0;
         }
+        
+        public void DeleteFoodByCateID(int id)
+        {
+            DataProvider.Instance.ExcuteQuery("DELETE FOOD WHERE IDCATEGORY='" + id + "'");
+        }
+
 
     }
 }
