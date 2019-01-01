@@ -47,7 +47,7 @@ namespace QUANLIBANHANG.DAL
         public List<Accounts> GetAccounts ()
         {
             List<Accounts> accounts = new List<Accounts>();
-            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT * FROM ACCOUNT");
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT USERNAME,NAME,KINDOFACC FROM ACCOUNT");
             foreach (DataRow row in dataTable.Rows)
             {
                 Accounts account = new Accounts(row);
@@ -57,6 +57,34 @@ namespace QUANLIBANHANG.DAL
 
         }
 
+        public bool InsertAcc(string UserName, string Name, int KindOfAcc)
+        {
+            string query = string.Format("INSERT ACCOUNT (UserName, Name, KindOfAcc) VALUES(N'{0}',N'{1}',N'{2}')", UserName, Name, KindOfAcc);
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+        public bool EditAcc( string UserName, string Name, int KindOfAcc)
+        {
+            string query = string.Format("UPDATE ACCOUNT SET  NAME='{1}', KIND='{2}' WHERE USERNAME={0})", UserName, Name, KindOfAcc);
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+
+        public bool DeleteAccByUserName(string UserName)
+        {
+            if(UserName=="ADMIN")
+            {
+                return false;
+            }
+            int result = DataProvider.Instance.ExcuteNonQuery("DELETE ACCOUNT WHERE USERNAME='" + UserName + "'");
+            return result > 0;
+        }
+        public bool ResetPassByUserName(string UserName)
+        {
+
+            int result = DataProvider.Instance.ExcuteNonQuery("UPDATE ACCOUNT SET PASSWORD='0' WHERE USERNAME='" + UserName + "'");
+            return result > 0;
+        }
     }
 
 

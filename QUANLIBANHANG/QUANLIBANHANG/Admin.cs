@@ -16,6 +16,7 @@ namespace QUANLIBANHANG
     {
         BindingSource bindingFood = new BindingSource();
         BindingSource bindingAcc = new BindingSource();
+        public Accounts loginacc;
         public Admin()
         {
             InitializeComponent();
@@ -69,15 +70,97 @@ namespace QUANLIBANHANG
         {
             textBox_UserName.DataBindings.Add(new Binding("Text", dataGridView_Acc.DataSource, "UserName", true, DataSourceUpdateMode.Never));
             textBox_Name.DataBindings.Add(new Binding("Text", dataGridView_Acc.DataSource, "Name", true, DataSourceUpdateMode.Never));
-            textBox_kindOfAcc.DataBindings.Add(new Binding("Text", dataGridView_Acc.DataSource, "KindOfAcc", true, DataSourceUpdateMode.Never));
+            numericUpDown_KindOfAcc.DataBindings.Add(new Binding("Value", dataGridView_Acc.DataSource, "KindOfAcc", true, DataSourceUpdateMode.Never));
         }
 
         #endregion
-        void LoadBillsByDate(DateTime datein,DateTime dateout)
+
+        #region METHOR
+        private void LoadBillsByDate(DateTime datein,DateTime dateout)
         {
             dataGridView_Bills.DataSource = BillDAL.Instance.GetBillsByDate(datein, dateout);
         }
 
+        private void InsertAcc( string UserName,string Name,int KindOfAcc)
+        {
+            if (isExistUserName(UserName) == false)
+            {
+                MessageBox.Show("UserName đã tồn tại, vui lòng chọn UserName khác", "Thông Báo");
+                return;
+            }
+            if(AccDAL.Instance.InsertAcc(UserName, Name, KindOfAcc))
+            {
+                MessageBox.Show("Thêm tài khoản thành công với Mật Khẩu mặc định là 0, Vui lòng đăng nhập bằng tài khoản để đổi mật khẩu mới", "Thông báo");
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi xảy ra", "Thông Báo");
+            }
+            loadAccList();
+        }
+        private void EditAcc(string UserName, string Name, int KindOfAcc)
+        {
+            if (MessageBox.Show("Bạn sẽ không sửa được UserName", "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                if (AccDAL.Instance.EditAcc(UserName, Name, KindOfAcc))
+                {
+                    MessageBox.Show("Sửa tài khoản thành công", "Thông báo");
+                }
+                else
+                {
+                    MessageBox.Show("Có lỗi xảy ra", "Thông Báo");
+                }
+                loadAccList();
+            }
+        }
+        private bool isExistUserName(string UserName)
+        {
+            loadAccList();
+            int temp = dataGridView_Acc.RowCount;
+            for(int i=0;i<temp;i++)
+            {
+                if (UserName==(dataGridView_Acc[0,i].Value.ToString()))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+         
+        private void DeleteAcc(string UserName)
+        {
+            if(loginacc.UserName==UserName)
+            {
+                MessageBox.Show("Bạn Không Thể Xóa Tài Khoản Chính Mình hoặc Tài Khoản ADMIN", "Thông Báo");
+                return;
+            }
+            if (AccDAL.Instance.DeleteAccByUserName(UserName))
+            {
+                MessageBox.Show("Xóa tài khoản thành công", "Thông báo");
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi xảy ra", "Thông Báo");
+            }
+            loadAccList();
+        }
+
+        private void ResetPass(string UserName)
+        {
+            if (AccDAL.Instance.ResetPassByUserName(UserName))
+            {
+                MessageBox.Show("Đặt lại tài khoản thành công", "Thông báo");
+            }
+            else
+            {
+                MessageBox.Show("Có lỗi xảy ra", "Thông Báo");
+            }
+            loadAccList();
+        }
+
+        #endregion
+
+        #region EVENTS
         private void button_List_Click(object sender, EventArgs e)
         {
             LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
@@ -164,5 +247,36 @@ namespace QUANLIBANHANG
         {
             loadAccList();
         }
+
+        private void button_addAcc_Click(object sender, EventArgs e)
+        {
+            string UserName = textBox_UserName.Text;
+            string Name = textBox_Name.Text;
+            int kindOfAcc = (int)numericUpDown_KindOfAcc.Value;
+            InsertAcc(UserName, Name, kindOfAcc);
+        }
+
+        private void button_deleAcc_Click(object sender, EventArgs e)
+        {
+            string UserName = textBox_UserName.Text;
+            DeleteAcc(UserName);
+        }
+
+        private void button_editAcc_Click(object sender, EventArgs e)
+        {
+            string UserName = textBox_UserName.Text;
+            string Name = textBox_Name.Text;
+            int kindOfAcc = (int)numericUpDown_KindOfAcc.Value;
+            EditAcc(UserName, Name, kindOfAcc);
+        }
+
+        private void button_ResetPass_Click(object sender, EventArgs e)
+        {
+            string UserName = textBox_UserName.Text;
+            ResetPass(UserName);
+        }
+        #endregion
+
+
     }
 }

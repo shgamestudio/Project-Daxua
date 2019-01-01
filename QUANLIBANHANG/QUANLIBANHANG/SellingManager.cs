@@ -132,6 +132,7 @@ namespace QUANLIBANHANG
         {
             Admin admin = new Admin();
             this.Hide();
+            admin.loginacc = this.account;
             admin.ShowDialog();
             this.Show();
         }

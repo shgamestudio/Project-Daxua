@@ -110,7 +110,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView_Bills = new System.Windows.Forms.DataGridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.textBox_kindOfAcc = new System.Windows.Forms.TextBox();
+            this.numericUpDown_KindOfAcc = new System.Windows.Forms.NumericUpDown();
+            this.button_ResetPass = new System.Windows.Forms.Button();
             this.tab_Account.SuspendLayout();
             this.panel27.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Acc)).BeginInit();
@@ -150,6 +151,7 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Bills)).BeginInit();
             this.tabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_KindOfAcc)).BeginInit();
             this.SuspendLayout();
             // 
             // tab_Account
@@ -185,6 +187,7 @@
             // 
             // panel22
             // 
+            this.panel22.Controls.Add(this.button_ResetPass);
             this.panel22.Controls.Add(this.panel23);
             this.panel22.Controls.Add(this.panel24);
             this.panel22.Controls.Add(this.panel25);
@@ -195,7 +198,7 @@
             // 
             // panel23
             // 
-            this.panel23.Controls.Add(this.textBox_kindOfAcc);
+            this.panel23.Controls.Add(this.numericUpDown_KindOfAcc);
             this.panel23.Controls.Add(this.label10);
             this.panel23.Location = new System.Drawing.Point(3, 140);
             this.panel23.Name = "panel23";
@@ -251,7 +254,6 @@
             // 
             this.textBox_UserName.Location = new System.Drawing.Point(111, 23);
             this.textBox_UserName.Name = "textBox_UserName";
-            this.textBox_UserName.ReadOnly = true;
             this.textBox_UserName.Size = new System.Drawing.Size(247, 20);
             this.textBox_UserName.TabIndex = 4;
             // 
@@ -294,6 +296,7 @@
             this.button_editAcc.TabIndex = 6;
             this.button_editAcc.Text = "Sửa";
             this.button_editAcc.UseVisualStyleBackColor = true;
+            this.button_editAcc.Click += new System.EventHandler(this.button_editAcc_Click);
             // 
             // button_deleAcc
             // 
@@ -303,6 +306,7 @@
             this.button_deleAcc.TabIndex = 5;
             this.button_deleAcc.Text = "Xóa";
             this.button_deleAcc.UseVisualStyleBackColor = true;
+            this.button_deleAcc.Click += new System.EventHandler(this.button_deleAcc_Click);
             // 
             // button_addAcc
             // 
@@ -312,6 +316,7 @@
             this.button_addAcc.TabIndex = 4;
             this.button_addAcc.Text = "Thêm";
             this.button_addAcc.UseVisualStyleBackColor = true;
+            this.button_addAcc.Click += new System.EventHandler(this.button_addAcc_Click);
             // 
             // tab_Table
             // 
@@ -930,12 +935,27 @@
             this.tabControl1.Size = new System.Drawing.Size(800, 450);
             this.tabControl1.TabIndex = 0;
             // 
-            // textBox_kindOfAcc
+            // numericUpDown_KindOfAcc
             // 
-            this.textBox_kindOfAcc.Location = new System.Drawing.Point(112, 23);
-            this.textBox_kindOfAcc.Name = "textBox_kindOfAcc";
-            this.textBox_kindOfAcc.Size = new System.Drawing.Size(247, 20);
-            this.textBox_kindOfAcc.TabIndex = 3;
+            this.numericUpDown_KindOfAcc.Location = new System.Drawing.Point(112, 25);
+            this.numericUpDown_KindOfAcc.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown_KindOfAcc.Name = "numericUpDown_KindOfAcc";
+            this.numericUpDown_KindOfAcc.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown_KindOfAcc.TabIndex = 4;
+            // 
+            // button_ResetPass
+            // 
+            this.button_ResetPass.Location = new System.Drawing.Point(211, 243);
+            this.button_ResetPass.Name = "button_ResetPass";
+            this.button_ResetPass.Size = new System.Drawing.Size(123, 23);
+            this.button_ResetPass.TabIndex = 4;
+            this.button_ResetPass.Text = "Đặt Lại Mật Khẩu";
+            this.button_ResetPass.UseVisualStyleBackColor = true;
+            this.button_ResetPass.Click += new System.EventHandler(this.button_ResetPass_Click);
             // 
             // Admin
             // 
@@ -998,6 +1018,7 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Bills)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_KindOfAcc)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1086,6 +1107,7 @@
         private System.Windows.Forms.Button button_cataEdit;
         private System.Windows.Forms.Button button_cataDelete;
         private System.Windows.Forms.Button button_cataAdd;
-        private System.Windows.Forms.TextBox textBox_kindOfAcc;
+        private System.Windows.Forms.NumericUpDown numericUpDown_KindOfAcc;
+        private System.Windows.Forms.Button button_ResetPass;
     }
 }

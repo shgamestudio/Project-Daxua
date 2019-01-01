@@ -12,13 +12,13 @@ namespace QUANLIBANHANG.DTO
     {
         private string userName;
         private string name;
-        private string passWord;
+        //private string passWord;
         private int kindOfAcc;
-        public Accounts(string username, string name, string password, int kindofacc)
+        public Accounts(string username, string name, /*string password,*/ int kindofacc)
         {
             this.userName = username;
             this.name = name;
-            this.passWord = password;
+            //this.passWord = password;
             this.kindOfAcc = kindofacc;
         }
 
@@ -26,12 +26,12 @@ namespace QUANLIBANHANG.DTO
         {
             this.userName = row["USERNAME"].ToString();
             this.name = row["NAME"].ToString();
-            this.passWord = row["PASSWORD"].ToString();
+           // this.passWord = row["PASSWORD"].ToString();
             this.kindOfAcc = (int)row["KINDOFACC"];
         }
         public string UserName { get => userName; set => userName = value; }
         public string Name { get => name; set => name = value; }
-        public string PassWord { get => passWord; set => passWord = value; }
+        //public string PassWord { get => passWord; set => passWord = value; }
         public int KindOfAcc { get => kindOfAcc; set => kindOfAcc = value; }
     }
 }
