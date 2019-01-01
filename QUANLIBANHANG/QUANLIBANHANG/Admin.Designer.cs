@@ -63,9 +63,6 @@
             this.button_cataDelete = new System.Windows.Forms.Button();
             this.button_cataAdd = new System.Windows.Forms.Button();
             this.tabPage_Food = new System.Windows.Forms.TabPage();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button_findFood = new System.Windows.Forms.Button();
-            this.textBox_Find = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.numericUpDown__Price = new System.Windows.Forms.NumericUpDown();
@@ -111,7 +108,6 @@
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
             this.tabPage_Food.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown__Price)).BeginInit();
@@ -344,7 +340,9 @@
             // dataGridView_Cata
             // 
             this.dataGridView_Cata.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+
             this.dataGridView_Cata.BackgroundColor = System.Drawing.Color.Aquamarine;
+
             this.dataGridView_Cata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Cata.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Cata.Location = new System.Drawing.Point(0, 0);
@@ -421,7 +419,11 @@
             this.panel17.Controls.Add(this.button_cataEdit);
             this.panel17.Controls.Add(this.button_cataDelete);
             this.panel17.Controls.Add(this.button_cataAdd);
+
             this.panel17.Location = new System.Drawing.Point(79, 7);
+
+            this.panel17.Location = new System.Drawing.Point(292, 7);
+
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(259, 61);
             this.panel17.TabIndex = 4;
@@ -434,7 +436,11 @@
             this.button_CataView.Size = new System.Drawing.Size(57, 55);
             this.button_CataView.TabIndex = 7;
             this.button_CataView.Text = "Xem";
+
             this.button_CataView.UseVisualStyleBackColor = false;
+
+            this.button_CataView.UseVisualStyleBackColor = true;
+
             this.button_CataView.Click += new System.EventHandler(this.button_CataView_Click);
             // 
             // button_cataEdit
@@ -445,7 +451,11 @@
             this.button_cataEdit.Size = new System.Drawing.Size(57, 55);
             this.button_cataEdit.TabIndex = 6;
             this.button_cataEdit.Text = "Sửa";
+
             this.button_cataEdit.UseVisualStyleBackColor = false;
+
+            this.button_cataEdit.UseVisualStyleBackColor = true;
+
             this.button_cataEdit.Click += new System.EventHandler(this.button_cataEdit_Click);
             // 
             // button_cataDelete
@@ -456,7 +466,11 @@
             this.button_cataDelete.Size = new System.Drawing.Size(57, 55);
             this.button_cataDelete.TabIndex = 5;
             this.button_cataDelete.Text = "Xóa";
+
             this.button_cataDelete.UseVisualStyleBackColor = false;
+
+            this.button_cataDelete.UseVisualStyleBackColor = true;
+
             this.button_cataDelete.Click += new System.EventHandler(this.button_cataDelete_Click);
             // 
             // button_cataAdd
@@ -467,13 +481,19 @@
             this.button_cataAdd.Size = new System.Drawing.Size(57, 55);
             this.button_cataAdd.TabIndex = 4;
             this.button_cataAdd.Text = "Thêm";
+
             this.button_cataAdd.UseVisualStyleBackColor = false;
+
+            this.button_cataAdd.UseVisualStyleBackColor = true;
+
             this.button_cataAdd.Click += new System.EventHandler(this.button_cataAdd_Click);
             // 
             // tabPage_Food
             // 
+
             this.tabPage_Food.BackColor = System.Drawing.Color.SkyBlue;
-            this.tabPage_Food.Controls.Add(this.panel6);
+          
+
             this.tabPage_Food.Controls.Add(this.panel5);
             this.tabPage_Food.Controls.Add(this.panel4);
             this.tabPage_Food.Controls.Add(this.panel3);
@@ -484,33 +504,10 @@
             this.tabPage_Food.TabIndex = 2;
             this.tabPage_Food.Text = "Thức Ăn";
             // 
-            // panel6
+
+            
             // 
-            this.panel6.Controls.Add(this.button_findFood);
-            this.panel6.Controls.Add(this.textBox_Find);
-            this.panel6.Location = new System.Drawing.Point(415, 6);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(369, 61);
-            this.panel6.TabIndex = 3;
-            // 
-            // button_findFood
-            // 
-            this.button_findFood.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button_findFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_findFood.Location = new System.Drawing.Point(272, 3);
-            this.button_findFood.Name = "button_findFood";
-            this.button_findFood.Size = new System.Drawing.Size(57, 55);
-            this.button_findFood.TabIndex = 8;
-            this.button_findFood.Text = "Tìm";
-            this.button_findFood.UseVisualStyleBackColor = false;
-            // 
-            // textBox_Find
-            // 
-            this.textBox_Find.Location = new System.Drawing.Point(4, 23);
-            this.textBox_Find.Name = "textBox_Find";
-            this.textBox_Find.Size = new System.Drawing.Size(236, 20);
-            this.textBox_Find.TabIndex = 0;
-            // 
+
             // panel5
             // 
             this.panel5.Controls.Add(this.panel10);
@@ -519,7 +516,7 @@
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Location = new System.Drawing.Point(415, 73);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(369, 343);
+            this.panel5.Size = new System.Drawing.Size(369, 279);
             this.panel5.TabIndex = 2;
             // 
             // panel10
@@ -641,9 +638,9 @@
             this.panel4.Controls.Add(this.button_changeFood);
             this.panel4.Controls.Add(this.button_deleteFood);
             this.panel4.Controls.Add(this.button_addFood);
-            this.panel4.Location = new System.Drawing.Point(8, 6);
+            this.panel4.Location = new System.Drawing.Point(301, 6);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(401, 61);
+            this.panel4.Size = new System.Drawing.Size(254, 61);
             this.panel4.TabIndex = 1;
             // 
             // button_viewFood
@@ -824,8 +821,6 @@
             this.panel16.PerformLayout();
             this.panel17.ResumeLayout(false);
             this.tabPage_Food.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
@@ -882,9 +877,6 @@
         private System.Windows.Forms.Button button_cataDelete;
         private System.Windows.Forms.Button button_cataAdd;
         private System.Windows.Forms.TabPage tabPage_Food;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button_findFood;
-        private System.Windows.Forms.TextBox textBox_Find;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.NumericUpDown numericUpDown__Price;
