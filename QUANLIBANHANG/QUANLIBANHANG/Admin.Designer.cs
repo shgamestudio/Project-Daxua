@@ -33,7 +33,6 @@
             this.dataGridView_Acc = new System.Windows.Forms.DataGridView();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.comboBox_kindOfAcc = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
             this.textBox_Name = new System.Windows.Forms.TextBox();
@@ -111,6 +110,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView_Bills = new System.Windows.Forms.DataGridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.textBox_kindOfAcc = new System.Windows.Forms.TextBox();
             this.tab_Account.SuspendLayout();
             this.panel27.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Acc)).BeginInit();
@@ -175,6 +175,7 @@
             // 
             // dataGridView_Acc
             // 
+            this.dataGridView_Acc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_Acc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Acc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Acc.Location = new System.Drawing.Point(0, 0);
@@ -194,20 +195,12 @@
             // 
             // panel23
             // 
-            this.panel23.Controls.Add(this.comboBox_kindOfAcc);
+            this.panel23.Controls.Add(this.textBox_kindOfAcc);
             this.panel23.Controls.Add(this.label10);
             this.panel23.Location = new System.Drawing.Point(3, 140);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(362, 63);
             this.panel23.TabIndex = 3;
-            // 
-            // comboBox_kindOfAcc
-            // 
-            this.comboBox_kindOfAcc.FormattingEnabled = true;
-            this.comboBox_kindOfAcc.Location = new System.Drawing.Point(112, 24);
-            this.comboBox_kindOfAcc.Name = "comboBox_kindOfAcc";
-            this.comboBox_kindOfAcc.Size = new System.Drawing.Size(247, 21);
-            this.comboBox_kindOfAcc.TabIndex = 3;
             // 
             // label10
             // 
@@ -265,12 +258,12 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 17);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 27);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 25);
+            this.label12.Size = new System.Drawing.Size(103, 16);
             this.label12.TabIndex = 0;
-            this.label12.Text = "ID";
+            this.label12.Text = "Tên Đăng Nhập";
             // 
             // panel26
             // 
@@ -291,6 +284,7 @@
             this.button_viewAcc.TabIndex = 7;
             this.button_viewAcc.Text = "Xem";
             this.button_viewAcc.UseVisualStyleBackColor = true;
+            this.button_viewAcc.Click += new System.EventHandler(this.button_viewAcc_Click);
             // 
             // button_editAcc
             // 
@@ -936,6 +930,13 @@
             this.tabControl1.Size = new System.Drawing.Size(800, 450);
             this.tabControl1.TabIndex = 0;
             // 
+            // textBox_kindOfAcc
+            // 
+            this.textBox_kindOfAcc.Location = new System.Drawing.Point(112, 23);
+            this.textBox_kindOfAcc.Name = "textBox_kindOfAcc";
+            this.textBox_kindOfAcc.Size = new System.Drawing.Size(247, 20);
+            this.textBox_kindOfAcc.TabIndex = 3;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1042,7 +1043,6 @@
         private System.Windows.Forms.DataGridView dataGridView_Acc;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.ComboBox comboBox_kindOfAcc;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.TextBox textBox_Name;
@@ -1086,5 +1086,6 @@
         private System.Windows.Forms.Button button_cataEdit;
         private System.Windows.Forms.Button button_cataDelete;
         private System.Windows.Forms.Button button_cataAdd;
+        private System.Windows.Forms.TextBox textBox_kindOfAcc;
     }
 }

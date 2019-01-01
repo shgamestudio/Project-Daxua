@@ -44,6 +44,18 @@ namespace QUANLIBANHANG.DAL
             int result = DataProvider.Instance.ExcuteNonQuery("USP_EDITACCOUNT @USERNAME , @NAME , @PASSWORD , @NEWPASSWORD", new object[] {username,name,password,newpassword });
             return result > 0;
         }
+        public List<Accounts> GetAccounts ()
+        {
+            List<Accounts> accounts = new List<Accounts>();
+            DataTable dataTable = DataProvider.Instance.ExcuteQuery("SELECT * FROM ACCOUNT");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Accounts account = new Accounts(row);
+                accounts.Add(account);
+            }
+            return accounts;
+
+        }
 
     }
 

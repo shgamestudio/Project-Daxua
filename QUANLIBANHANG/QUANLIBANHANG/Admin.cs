@@ -14,20 +14,32 @@ namespace QUANLIBANHANG
 {
     public partial class Admin : Form
     {
-        BindingSource binding = new BindingSource();
+        BindingSource bindingFood = new BindingSource();
+        BindingSource bindingAcc = new BindingSource();
         public Admin()
         {
             InitializeComponent();
 
-            dataGridView_Food.DataSource = binding;
+            //acc
+            dataGridView_Acc.DataSource = bindingAcc;
+            addBindingAcc();
             loadAccList();
+
+            //bills
+
             LoadBillsByDate(dateTimePicker_DateFrom.Value, dateTimePicker_DateTo.Value);
+            //food
+            dataGridView_Food.DataSource = bindingFood;
             LoadFood();
             addFoodBinding();
+
+            //Cata
             LoadCataIntoFoodCB(comboBox_foodCata);
         }
 
-        private void LoadCataIntoFoodCB(ComboBox comboBox_foodCata)
+
+        #region Food
+        private void LoadCataIntoFoodCB(ComboBox comboBox_foodCata)//load Cata vao Food CB
         {
             comboBox_foodCata.DataSource = CategoryDAL.Instance.GetCatagories();
             comboBox_foodCata.DisplayMember = "Name";
@@ -43,15 +55,24 @@ namespace QUANLIBANHANG
 
         private void LoadFood()
         {
-            binding.DataSource = FoodDAL.Instance.GetFoods();
+            bindingFood.DataSource = FoodDAL.Instance.GetFoods();
         }
+        #endregion
 
-        void loadAccList()
+
+        #region Acc
+        private void loadAccList()
         {
-            string query = "SELECT USERNAME as[Tên Tài Khoản],NAME as[Tên Hiển Thị], KINDOFACC as[Loại Tài Khoản] FROM ACCOUNT";
-            dataGridView_Acc.DataSource =DataProvider.Instance.ExcuteQuery(query);
+            bindingAcc.DataSource = AccDAL.Instance.GetAccounts();
+        }
+        private void addBindingAcc()
+        {
+            textBox_UserName.DataBindings.Add(new Binding("Text", dataGridView_Acc.DataSource, "UserName", true, DataSourceUpdateMode.Never));
+            textBox_Name.DataBindings.Add(new Binding("Text", dataGridView_Acc.DataSource, "Name", true, DataSourceUpdateMode.Never));
+            textBox_kindOfAcc.DataBindings.Add(new Binding("Text", dataGridView_Acc.DataSource, "KindOfAcc", true, DataSourceUpdateMode.Never));
         }
 
+        #endregion
         void LoadBillsByDate(DateTime datein,DateTime dateout)
         {
             dataGridView_Bills.DataSource = BillDAL.Instance.GetBillsByDate(datein, dateout);
@@ -136,6 +157,12 @@ namespace QUANLIBANHANG
             {
                 MessageBox.Show("Có lỗi khi thực hiện", "Thông báo");
             }
+        }
+
+       
+        private void button_viewAcc_Click(object sender, EventArgs e)
+        {
+            loadAccList();
         }
     }
 }
