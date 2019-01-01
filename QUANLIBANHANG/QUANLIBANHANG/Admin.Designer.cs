@@ -130,6 +130,7 @@
             // 
             // tab_Account
             // 
+            this.tab_Account.BackColor = System.Drawing.Color.LightSteelBlue;
             this.tab_Account.Controls.Add(this.panel27);
             this.tab_Account.Controls.Add(this.panel22);
             this.tab_Account.Controls.Add(this.panel26);
@@ -139,7 +140,6 @@
             this.tab_Account.Size = new System.Drawing.Size(792, 424);
             this.tab_Account.TabIndex = 5;
             this.tab_Account.Text = "Tài Khoản";
-            this.tab_Account.UseVisualStyleBackColor = true;
             // 
             // panel27
             // 
@@ -152,6 +152,7 @@
             // dataGridView_Acc
             // 
             this.dataGridView_Acc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Acc.BackgroundColor = System.Drawing.Color.Pink;
             this.dataGridView_Acc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Acc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Acc.Location = new System.Drawing.Point(0, 0);
@@ -259,63 +260,69 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(3, 27);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(103, 16);
+            this.label12.Size = new System.Drawing.Size(99, 16);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Tên Đăng Nhập";
+            this.label12.Text = "Tên đăng nhập";
             // 
             // panel26
             // 
+            this.panel26.BackColor = System.Drawing.Color.HotPink;
             this.panel26.Controls.Add(this.button_viewAcc);
             this.panel26.Controls.Add(this.button_editAcc);
             this.panel26.Controls.Add(this.button_deleAcc);
             this.panel26.Controls.Add(this.button_addAcc);
-            this.panel26.Location = new System.Drawing.Point(247, 5);
+            this.panel26.Location = new System.Drawing.Point(81, 5);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(401, 61);
+            this.panel26.Size = new System.Drawing.Size(256, 61);
             this.panel26.TabIndex = 8;
             // 
             // button_viewAcc
             // 
+            this.button_viewAcc.BackColor = System.Drawing.Color.LemonChiffon;
             this.button_viewAcc.Location = new System.Drawing.Point(192, 3);
             this.button_viewAcc.Name = "button_viewAcc";
             this.button_viewAcc.Size = new System.Drawing.Size(57, 55);
             this.button_viewAcc.TabIndex = 7;
             this.button_viewAcc.Text = "Xem";
-            this.button_viewAcc.UseVisualStyleBackColor = true;
+            this.button_viewAcc.UseVisualStyleBackColor = false;
             this.button_viewAcc.Click += new System.EventHandler(this.button_viewAcc_Click);
             // 
             // button_editAcc
             // 
+            this.button_editAcc.BackColor = System.Drawing.Color.LemonChiffon;
             this.button_editAcc.Location = new System.Drawing.Point(129, 3);
             this.button_editAcc.Name = "button_editAcc";
             this.button_editAcc.Size = new System.Drawing.Size(57, 55);
             this.button_editAcc.TabIndex = 6;
             this.button_editAcc.Text = "Sửa";
-            this.button_editAcc.UseVisualStyleBackColor = true;
+            this.button_editAcc.UseVisualStyleBackColor = false;
             this.button_editAcc.Click += new System.EventHandler(this.button_editAcc_Click);
             // 
             // button_deleAcc
             // 
+            this.button_deleAcc.BackColor = System.Drawing.Color.LemonChiffon;
             this.button_deleAcc.Location = new System.Drawing.Point(66, 3);
             this.button_deleAcc.Name = "button_deleAcc";
             this.button_deleAcc.Size = new System.Drawing.Size(57, 55);
             this.button_deleAcc.TabIndex = 5;
             this.button_deleAcc.Text = "Xóa";
-            this.button_deleAcc.UseVisualStyleBackColor = true;
+            this.button_deleAcc.UseVisualStyleBackColor = false;
             this.button_deleAcc.Click += new System.EventHandler(this.button_deleAcc_Click);
             // 
             // button_addAcc
             // 
+            this.button_addAcc.BackColor = System.Drawing.Color.LemonChiffon;
             this.button_addAcc.Location = new System.Drawing.Point(3, 3);
             this.button_addAcc.Name = "button_addAcc";
             this.button_addAcc.Size = new System.Drawing.Size(57, 55);
             this.button_addAcc.TabIndex = 4;
             this.button_addAcc.Text = "Thêm";
-            this.button_addAcc.UseVisualStyleBackColor = true;
+            this.button_addAcc.UseVisualStyleBackColor = false;
             this.button_addAcc.Click += new System.EventHandler(this.button_addAcc_Click);
             // 
             // tab_Catagory
             // 
+            this.tab_Catagory.BackColor = System.Drawing.Color.MediumTurquoise;
             this.tab_Catagory.Controls.Add(this.panel18);
             this.tab_Catagory.Controls.Add(this.panel12);
             this.tab_Catagory.Controls.Add(this.panel17);
@@ -325,7 +332,6 @@
             this.tab_Catagory.Size = new System.Drawing.Size(792, 424);
             this.tab_Catagory.TabIndex = 3;
             this.tab_Catagory.Text = "Danh Mục";
-            this.tab_Catagory.UseVisualStyleBackColor = true;
             // 
             // panel18
             // 
@@ -338,10 +344,7 @@
             // dataGridView_Cata
             // 
             this.dataGridView_Cata.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-<<<<<<< HEAD
-=======
             this.dataGridView_Cata.BackgroundColor = System.Drawing.Color.Aquamarine;
->>>>>>> parent of 42c3b56... h
             this.dataGridView_Cata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Cata.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Cata.Location = new System.Drawing.Point(0, 0);
@@ -413,82 +416,64 @@
             // 
             // panel17
             // 
+            this.panel17.BackColor = System.Drawing.Color.Aquamarine;
             this.panel17.Controls.Add(this.button_CataView);
             this.panel17.Controls.Add(this.button_cataEdit);
             this.panel17.Controls.Add(this.button_cataDelete);
             this.panel17.Controls.Add(this.button_cataAdd);
-<<<<<<< HEAD
-            this.panel17.Location = new System.Drawing.Point(292, 7);
-=======
             this.panel17.Location = new System.Drawing.Point(79, 7);
->>>>>>> parent of 42c3b56... h
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(259, 61);
             this.panel17.TabIndex = 4;
             // 
             // button_CataView
             // 
-            this.button_CataView.Location = new System.Drawing.Point(192, 3);
+            this.button_CataView.BackColor = System.Drawing.Color.LemonChiffon;
+            this.button_CataView.Location = new System.Drawing.Point(195, 3);
             this.button_CataView.Name = "button_CataView";
             this.button_CataView.Size = new System.Drawing.Size(57, 55);
             this.button_CataView.TabIndex = 7;
             this.button_CataView.Text = "Xem";
-<<<<<<< HEAD
-            this.button_CataView.UseVisualStyleBackColor = true;
-=======
             this.button_CataView.UseVisualStyleBackColor = false;
->>>>>>> parent of 42c3b56... h
             this.button_CataView.Click += new System.EventHandler(this.button_CataView_Click);
             // 
             // button_cataEdit
             // 
-            this.button_cataEdit.Location = new System.Drawing.Point(129, 3);
+            this.button_cataEdit.BackColor = System.Drawing.Color.LemonChiffon;
+            this.button_cataEdit.Location = new System.Drawing.Point(132, 3);
             this.button_cataEdit.Name = "button_cataEdit";
             this.button_cataEdit.Size = new System.Drawing.Size(57, 55);
             this.button_cataEdit.TabIndex = 6;
             this.button_cataEdit.Text = "Sửa";
-<<<<<<< HEAD
-            this.button_cataEdit.UseVisualStyleBackColor = true;
-=======
             this.button_cataEdit.UseVisualStyleBackColor = false;
->>>>>>> parent of 42c3b56... h
             this.button_cataEdit.Click += new System.EventHandler(this.button_cataEdit_Click);
             // 
             // button_cataDelete
             // 
-            this.button_cataDelete.Location = new System.Drawing.Point(66, 3);
+            this.button_cataDelete.BackColor = System.Drawing.Color.LemonChiffon;
+            this.button_cataDelete.Location = new System.Drawing.Point(69, 3);
             this.button_cataDelete.Name = "button_cataDelete";
             this.button_cataDelete.Size = new System.Drawing.Size(57, 55);
             this.button_cataDelete.TabIndex = 5;
             this.button_cataDelete.Text = "Xóa";
-<<<<<<< HEAD
-            this.button_cataDelete.UseVisualStyleBackColor = true;
-=======
             this.button_cataDelete.UseVisualStyleBackColor = false;
->>>>>>> parent of 42c3b56... h
             this.button_cataDelete.Click += new System.EventHandler(this.button_cataDelete_Click);
             // 
             // button_cataAdd
             // 
-            this.button_cataAdd.Location = new System.Drawing.Point(3, 3);
+            this.button_cataAdd.BackColor = System.Drawing.Color.LemonChiffon;
+            this.button_cataAdd.Location = new System.Drawing.Point(6, 3);
             this.button_cataAdd.Name = "button_cataAdd";
             this.button_cataAdd.Size = new System.Drawing.Size(57, 55);
             this.button_cataAdd.TabIndex = 4;
             this.button_cataAdd.Text = "Thêm";
-<<<<<<< HEAD
-            this.button_cataAdd.UseVisualStyleBackColor = true;
-=======
             this.button_cataAdd.UseVisualStyleBackColor = false;
->>>>>>> parent of 42c3b56... h
             this.button_cataAdd.Click += new System.EventHandler(this.button_cataAdd_Click);
             // 
             // tabPage_Food
             // 
-<<<<<<< HEAD
-=======
             this.tabPage_Food.BackColor = System.Drawing.Color.SkyBlue;
             this.tabPage_Food.Controls.Add(this.panel6);
->>>>>>> parent of 42c3b56... h
             this.tabPage_Food.Controls.Add(this.panel5);
             this.tabPage_Food.Controls.Add(this.panel4);
             this.tabPage_Food.Controls.Add(this.panel3);
@@ -498,10 +483,7 @@
             this.tabPage_Food.Size = new System.Drawing.Size(792, 424);
             this.tabPage_Food.TabIndex = 2;
             this.tabPage_Food.Text = "Thức Ăn";
-            this.tabPage_Food.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
-=======
             // panel6
             // 
             this.panel6.Controls.Add(this.button_findFood);
@@ -529,7 +511,6 @@
             this.textBox_Find.Size = new System.Drawing.Size(236, 20);
             this.textBox_Find.TabIndex = 0;
             // 
->>>>>>> parent of 42c3b56... h
             // panel5
             // 
             this.panel5.Controls.Add(this.panel10);
@@ -595,9 +576,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(4, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 25);
+            this.label3.Size = new System.Drawing.Size(101, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Danh Mục";
+            this.label3.Text = "Danh mục";
             // 
             // panel8
             // 
@@ -655,6 +636,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.Khaki;
             this.panel4.Controls.Add(this.button_viewFood);
             this.panel4.Controls.Add(this.button_changeFood);
             this.panel4.Controls.Add(this.button_deleteFood);
@@ -666,42 +648,46 @@
             // 
             // button_viewFood
             // 
-            this.button_viewFood.Location = new System.Drawing.Point(192, 3);
+            this.button_viewFood.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.button_viewFood.Location = new System.Drawing.Point(295, 3);
             this.button_viewFood.Name = "button_viewFood";
-            this.button_viewFood.Size = new System.Drawing.Size(57, 55);
+            this.button_viewFood.Size = new System.Drawing.Size(86, 55);
             this.button_viewFood.TabIndex = 7;
             this.button_viewFood.Text = "Xem";
-            this.button_viewFood.UseVisualStyleBackColor = true;
+            this.button_viewFood.UseVisualStyleBackColor = false;
             this.button_viewFood.Click += new System.EventHandler(this.button_viewFood_Click);
             // 
             // button_changeFood
             // 
-            this.button_changeFood.Location = new System.Drawing.Point(129, 3);
+            this.button_changeFood.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.button_changeFood.Location = new System.Drawing.Point(191, 3);
             this.button_changeFood.Name = "button_changeFood";
-            this.button_changeFood.Size = new System.Drawing.Size(57, 55);
+            this.button_changeFood.Size = new System.Drawing.Size(89, 55);
             this.button_changeFood.TabIndex = 6;
             this.button_changeFood.Text = "Sửa";
-            this.button_changeFood.UseVisualStyleBackColor = true;
+            this.button_changeFood.UseVisualStyleBackColor = false;
             this.button_changeFood.Click += new System.EventHandler(this.button_changeFood_Click);
             // 
             // button_deleteFood
             // 
-            this.button_deleteFood.Location = new System.Drawing.Point(66, 3);
+            this.button_deleteFood.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.button_deleteFood.Location = new System.Drawing.Point(100, 3);
             this.button_deleteFood.Name = "button_deleteFood";
-            this.button_deleteFood.Size = new System.Drawing.Size(57, 55);
+            this.button_deleteFood.Size = new System.Drawing.Size(81, 55);
             this.button_deleteFood.TabIndex = 5;
             this.button_deleteFood.Text = "Xóa";
-            this.button_deleteFood.UseVisualStyleBackColor = true;
+            this.button_deleteFood.UseVisualStyleBackColor = false;
             this.button_deleteFood.Click += new System.EventHandler(this.button_deleteFood_Click);
             // 
             // button_addFood
             // 
-            this.button_addFood.Location = new System.Drawing.Point(3, 3);
+            this.button_addFood.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.button_addFood.Location = new System.Drawing.Point(13, 3);
             this.button_addFood.Name = "button_addFood";
-            this.button_addFood.Size = new System.Drawing.Size(57, 55);
+            this.button_addFood.Size = new System.Drawing.Size(75, 55);
             this.button_addFood.TabIndex = 4;
             this.button_addFood.Text = "Thêm";
-            this.button_addFood.UseVisualStyleBackColor = true;
+            this.button_addFood.UseVisualStyleBackColor = false;
             this.button_addFood.Click += new System.EventHandler(this.button_addFood_Click);
             // 
             // panel3
@@ -715,6 +701,7 @@
             // dataGridView_Food
             // 
             this.dataGridView_Food.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Food.BackgroundColor = System.Drawing.Color.LightSkyBlue;
             this.dataGridView_Food.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Food.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Food.Location = new System.Drawing.Point(0, 0);
@@ -724,6 +711,7 @@
             // 
             // tabPage_DoanhThu
             // 
+            this.tabPage_DoanhThu.BackColor = System.Drawing.Color.SkyBlue;
             this.tabPage_DoanhThu.Controls.Add(this.panel2);
             this.tabPage_DoanhThu.Controls.Add(this.panel1);
             this.tabPage_DoanhThu.Location = new System.Drawing.Point(4, 22);
@@ -732,26 +720,28 @@
             this.tabPage_DoanhThu.Size = new System.Drawing.Size(792, 424);
             this.tabPage_DoanhThu.TabIndex = 1;
             this.tabPage_DoanhThu.Text = "Doanh Thu";
-            this.tabPage_DoanhThu.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Controls.Add(this.button_List);
             this.panel2.Controls.Add(this.dateTimePicker_DateTo);
             this.panel2.Controls.Add(this.dateTimePicker_DateFrom);
-            this.panel2.Location = new System.Drawing.Point(8, 7);
+            this.panel2.Location = new System.Drawing.Point(8, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(776, 23);
+            this.panel2.Size = new System.Drawing.Size(776, 27);
             this.panel2.TabIndex = 1;
             // 
             // button_List
             // 
+            this.button_List.BackColor = System.Drawing.Color.Turquoise;
+            this.button_List.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_List.Location = new System.Drawing.Point(348, 0);
             this.button_List.Name = "button_List";
-            this.button_List.Size = new System.Drawing.Size(75, 23);
+            this.button_List.Size = new System.Drawing.Size(75, 27);
             this.button_List.TabIndex = 2;
             this.button_List.Text = "Liệt Kê";
-            this.button_List.UseVisualStyleBackColor = true;
+            this.button_List.UseVisualStyleBackColor = false;
             this.button_List.Click += new System.EventHandler(this.button_List_Click);
             // 
             // dateTimePicker_DateTo
@@ -781,6 +771,7 @@
             // dataGridView_Bills
             // 
             this.dataGridView_Bills.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Bills.BackgroundColor = System.Drawing.Color.Pink;
             this.dataGridView_Bills.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Bills.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_Bills.Location = new System.Drawing.Point(0, 0);

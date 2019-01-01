@@ -11,6 +11,7 @@ E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUAN
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.SellingManager.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Admin.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\Project-Daxua\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Function.resources
+E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.csprojAssemblyReference.cache
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.AccountInfo.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Admin.resources
 E:\HKI 2018\Lập trình trực quan\DEANCUOIKI\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Function.resources
@@ -36,3 +37,17 @@ H:\GitHub\Quan-Ly-Ban-hang\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.c
 H:\GitHub\Quan-Ly-Ban-hang\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.csproj.CoreCompileInputs.cache
 H:\GitHub\Quan-Ly-Ban-hang\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.exe
 H:\GitHub\Quan-Ly-Ban-hang\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.pdb
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\bin\Debug\QUANLIBANHANG.exe.config
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\bin\Debug\QUANLIBANHANG.exe
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\bin\Debug\QUANLIBANHANG.pdb
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.csprojAssemblyReference.cache
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.AccountInfo.resources
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Admin.resources
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Function.resources
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.Properties.Resources.resources
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.SellingManager.resources
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.csproj.GenerateResource.cache
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.csproj.CoreCompileInputs.cache
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.exe
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\obj\Debug\QUANLIBANHANG.pdb
+H:\1A\New folder\Quan-Ly-Ban-hang-master\Quan-Ly-Ban-hang-master\QUANLIBANHANG\QUANLIBANHANG\bin\Debug\pay.wav

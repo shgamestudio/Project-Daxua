@@ -5,20 +5,22 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Printing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Menu = QUANLIBANHANG.DTO.Menu;
+using System.Media;
+using System.Drawing.Printing;
 
 namespace QUANLIBANHANG
 {
     public partial class SellingManager : Form
     {
         private Accounts account;
-        
+        private SoundPlayer _soundPlayer_pay;
+
         public Accounts Account
         { get => account;
             set
@@ -31,11 +33,12 @@ namespace QUANLIBANHANG
         {
            
             InitializeComponent();
-            
             this.Account = loginaccount;
             LoadTable();
             LoadCatagory();
             isAdmin(account.KindOfAcc);
+
+            _soundPlayer_pay = new SoundPlayer("pay.wav");
         }
 
         
@@ -76,7 +79,7 @@ namespace QUANLIBANHANG
                 switch(table.Status)
                 {
                     case "TRỐNG":
-                        button.BackColor = Color.Aqua;
+                        button.BackColor = Color.SpringGreen;
                         break;
                     case "CÓ NGƯỜI":
                         button.BackColor = Color.LightPink;
@@ -88,7 +91,7 @@ namespace QUANLIBANHANG
 
         void ShowBill(int idTable)
         {
-            int totalPrice = 0;
+            int totalPrice=0;
             listView1.Items.Clear();
             List<Menu> menus = MenuDAL.Instance.GetMenus(idTable);
             foreach (Menu menu in menus)
@@ -101,7 +104,7 @@ namespace QUANLIBANHANG
                 listView1.Items.Add(listViewItem);
             }
             CultureInfo cultureInfo = new CultureInfo("vn-VN");
-            TextBox_TotalPrice.Text = totalPrice.ToString("C", cultureInfo);
+            TextBox_TotalPrice.Text = totalPrice.ToString("C",cultureInfo);
             LoadTable();
         }
         private void Button_Click(object sender, EventArgs e)
@@ -192,7 +195,7 @@ namespace QUANLIBANHANG
             }
             if (id.Status == "CÓ NGƯỜI")
             {
-                
+
                 int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
                 if (idBill != -1)
                 {
@@ -219,18 +222,14 @@ namespace QUANLIBANHANG
             }
             if (id.Status != "CÓ NGƯỜI")
             {
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> parent of 42c3b56... h
                 int idBill = BillDAL.Instance.GetUnCheckOutBillByTableId(id.ID);
                 if (idBill != -1)
                 {
                     if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
                     {
                         BillDAL.Instance.Paid(idBill);
-                        
+
                     }
                 }
             }
@@ -262,7 +261,7 @@ namespace QUANLIBANHANG
 
         private void CreateReceipt(object sender, PrintPageEventArgs e)
         {
-            
+
             //this prints the reciept
 
             Graphics graphic = e.Graphics;
@@ -276,13 +275,13 @@ namespace QUANLIBANHANG
             int offset = 40;
 
             graphic.DrawString(" SH Restaurants", new Font("Courier New", 18), new SolidBrush(Color.Black), startX, startY);
-            string top = "Tên Món Ăn".PadRight(20) +"Giá".PadRight(15)+ "Số Lượng".PadRight(10)+"Tổng Tiền";
+            string top = "Tên Món Ăn".PadRight(20) + "Giá".PadRight(15) + "Số Lượng".PadRight(10) + "Tổng Tiền";
             graphic.DrawString(top, font, new SolidBrush(Color.Black), startX, startY + offset);
             offset = offset + (int)fontHeight; //make the spacing consistent
             graphic.DrawString("----------------------------------------------------------", font, new SolidBrush(Color.Black), startX, startY + offset);
             offset = offset + (int)fontHeight + 5; //make the spacing consistent
 
-            
+
             string totalprice = TextBox_TotalPrice.Text;
 
             foreach (ListViewItem item in listView1.Items)
@@ -292,12 +291,12 @@ namespace QUANLIBANHANG
                 string Price = item.SubItems[1].Text;
                 string Count = item.SubItems[2].Text;
                 string TotalPriceByFood = item.SubItems[3].Text;
-               
-                    string productLine = FoodName.PadRight(20) + Price.PadRight(15) + Count.PadRight(10) + TotalPriceByFood;
+
+                string productLine = FoodName.PadRight(20) + Price.PadRight(15) + Count.PadRight(10) + TotalPriceByFood;
 
                 graphic.DrawString(productLine, font, new SolidBrush(Color.Black), startX, startY + offset);
 
-                    offset = offset + (int)fontHeight + 5; //make the spacing consistent
+                offset = offset + (int)fontHeight + 5; //make the spacing consistent
                 //}
 
             }
@@ -308,11 +307,12 @@ namespace QUANLIBANHANG
             graphic.DrawString("Total to pay ".PadRight(45) + totalprice, new Font("Courier New", 12, FontStyle.Bold), new SolidBrush(Color.Black), startX, startY + offset);
 
             offset = offset + 30; //make some room so that the total stands out.
-            
+
             graphic.DrawString("     Cảm Ơn Quý Khách,", font, new SolidBrush(Color.Black), startX, startY + offset);
             offset = offset + 15;
             graphic.DrawString("       Hẹn Gặp Lại", font, new SolidBrush(Color.Black), startX, startY + offset);
 
         }
     }
+
 }

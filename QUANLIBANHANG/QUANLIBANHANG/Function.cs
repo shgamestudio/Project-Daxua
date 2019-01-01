@@ -21,7 +21,7 @@ namespace QUANLIBANHANG
 
         private void Funtion_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if ((MessageBox.Show("Bạn Có Chắc Chắn Muốn Thoát ?", "Thông báo", MessageBoxButtons.OKCancel)) != System.Windows.Forms.DialogResult.OK)
+            if ((MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel)) != System.Windows.Forms.DialogResult.OK)
             {
                 e.Cancel = true;
             }
@@ -55,6 +55,26 @@ namespace QUANLIBANHANG
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Button_Exit_MouseEnter(object sender, EventArgs e)
+        {
+            Button_Exit.Image = Properties.Resources.thoatexit2;
+        }
+
+        private void Button_Exit_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Exit.Image = Properties.Resources.thoatexit1;
+        }
+
+        private void Button_Sign_In_MouseEnter(object sender, EventArgs e)
+        {
+            Button_Sign_In.Image = Properties.Resources.thoatexit2;
+        }
+
+        private void Button_Sign_In_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Sign_In.Image = Properties.Resources.thoatexit1;
         }
     }
 }
