@@ -285,7 +285,7 @@ namespace QUANLIBANHANG
         {
             if (AccDAL.Instance.ResetPassByUserName(UserName))
             {
-                MessageBox.Show("Đặt lại tài khoản thành công", "Thông báo");
+                MessageBox.Show("Đặt lại tài khoản thành công với mật khẩu mặc định là 0", "Thông báo");
             }
             else
             {
