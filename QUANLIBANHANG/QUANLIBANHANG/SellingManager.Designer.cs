@@ -138,10 +138,10 @@
             // 
             // button_addFood
             // 
-            this.button_addFood.BackColor = System.Drawing.Color.Azure;
+            this.button_addFood.BackColor = System.Drawing.Color.Aquamarine;
             this.button_addFood.Location = new System.Drawing.Point(246, 4);
             this.button_addFood.Name = "button_addFood";
-            this.button_addFood.Size = new System.Drawing.Size(75, 48);
+            this.button_addFood.Size = new System.Drawing.Size(76, 58);
             this.button_addFood.TabIndex = 2;
             this.button_addFood.Text = "Thêm";
             this.button_addFood.UseVisualStyleBackColor = false;
