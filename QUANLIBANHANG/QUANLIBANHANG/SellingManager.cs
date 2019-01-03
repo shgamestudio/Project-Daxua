@@ -38,7 +38,7 @@ namespace QUANLIBANHANG
             LoadCatagory();
             isAdmin(account.KindOfAcc);
 
-            _soundPlayer_pay = new SoundPlayer("...//...//Resources//pay.wav");
+            _soundPlayer_pay = new SoundPlayer("pay.wav");
         }
 
         
@@ -198,7 +198,8 @@ namespace QUANLIBANHANG
             {
                 if (MessageBox.Show("Bạn Có Chắc Thêm Hóa Đơn Cho " + id.Name, "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-                        BillDAL.Instance.Paid(idBill);
+                    _soundPlayer_pay.Play();
+                    BillDAL.Instance.Paid(idBill);
                     ShowBill(id.ID);
                 }
             }
@@ -236,6 +237,7 @@ namespace QUANLIBANHANG
 
                     if (result == DialogResult.OK)
                     {
+                        _soundPlayer_pay.Play();
                         printDocument.Print();
                         BillDAL.Instance.Paid(idBill);
                     }

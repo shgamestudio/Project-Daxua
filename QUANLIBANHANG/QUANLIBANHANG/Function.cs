@@ -76,5 +76,10 @@ namespace QUANLIBANHANG
         {
             Button_Sign_In.Image = Properties.Resources.thoatexit1;
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Phần mềm được tạo bởi SH Studio, liên hệ : 17520982@gm.uit.edu.vn hoặc 17520511@gm.uit.edu.vn để đóng góp ý kiến", "Thông báo");
+        }
     }
 }
